@@ -1,0 +1,9 @@
+Commandes Docker
+1. Construire l'image
+bash
+Copier le code
+docker build -t mon-api-express .
+2. Lancer le conteneur
+bash
+Copier le code
+docker run -p 3000:3000 mon-api-express

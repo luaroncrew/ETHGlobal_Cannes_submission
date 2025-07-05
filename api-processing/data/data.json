@@ -1,0 +1,2602 @@
+[
+    {
+        "name": "Natalie Davis",
+        "birthdate": "1940-07-03",
+        "features": {
+            "heartrate_average_last_3_days": 96,
+            "blood_pressure_diastolic": 71,
+            "blood_pressure_sistolic": 125,
+            "age": 85
+        },
+        "target": {
+            "life_expectancy": 97
+        }
+    },
+    {
+        "name": "Lauren Garza",
+        "birthdate": "1984-01-03",
+        "features": {
+            "heartrate_average_last_3_days": 73,
+            "blood_pressure_diastolic": 72,
+            "blood_pressure_sistolic": 118,
+            "age": 41
+        },
+        "target": {
+            "life_expectancy": 97
+        }
+    },
+    {
+        "name": "Thomas Sandoval",
+        "birthdate": "1990-08-06",
+        "features": {
+            "heartrate_average_last_3_days": 67,
+            "blood_pressure_diastolic": 75,
+            "blood_pressure_sistolic": 111,
+            "age": 34
+        },
+        "target": {
+            "life_expectancy": 73
+        }
+    },
+    {
+        "name": "Caleb Thomas",
+        "birthdate": "1966-12-01",
+        "features": {
+            "heartrate_average_last_3_days": 72,
+            "blood_pressure_diastolic": 62,
+            "blood_pressure_sistolic": 93,
+            "age": 58
+        },
+        "target": {
+            "life_expectancy": 86
+        }
+    },
+    {
+        "name": "Tina Smith",
+        "birthdate": "1963-06-14",
+        "features": {
+            "heartrate_average_last_3_days": 91,
+            "blood_pressure_diastolic": 81,
+            "blood_pressure_sistolic": 108,
+            "age": 62
+        },
+        "target": {
+            "life_expectancy": 88
+        }
+    },
+    {
+        "name": "Christopher Cox",
+        "birthdate": "1941-12-05",
+        "features": {
+            "heartrate_average_last_3_days": 66,
+            "blood_pressure_diastolic": 79,
+            "blood_pressure_sistolic": 103,
+            "age": 83
+        },
+        "target": {
+            "life_expectancy": 96
+        }
+    },
+    {
+        "name": "Sabrina Gibbs",
+        "birthdate": "1948-06-16",
+        "features": {
+            "heartrate_average_last_3_days": 80,
+            "blood_pressure_diastolic": 61,
+            "blood_pressure_sistolic": 96,
+            "age": 77
+        },
+        "target": {
+            "life_expectancy": 75
+        }
+    },
+    {
+        "name": "Michelle Richmond",
+        "birthdate": "1971-01-13",
+        "features": {
+            "heartrate_average_last_3_days": 92,
+            "blood_pressure_diastolic": 70,
+            "blood_pressure_sistolic": 116,
+            "age": 54
+        },
+        "target": {
+            "life_expectancy": 80
+        }
+    },
+    {
+        "name": "Rachel Anderson",
+        "birthdate": "1997-09-23",
+        "features": {
+            "heartrate_average_last_3_days": 63,
+            "blood_pressure_diastolic": 89,
+            "blood_pressure_sistolic": 110,
+            "age": 27
+        },
+        "target": {
+            "life_expectancy": 68
+        }
+    },
+    {
+        "name": "Charles Copeland",
+        "birthdate": "1956-06-03",
+        "features": {
+            "heartrate_average_last_3_days": 68,
+            "blood_pressure_diastolic": 84,
+            "blood_pressure_sistolic": 127,
+            "age": 69
+        },
+        "target": {
+            "life_expectancy": 86
+        }
+    },
+    {
+        "name": "Mr. Kevin Stephens",
+        "birthdate": "1959-05-03",
+        "features": {
+            "heartrate_average_last_3_days": 74,
+            "blood_pressure_diastolic": 71,
+            "blood_pressure_sistolic": 105,
+            "age": 66
+        },
+        "target": {
+            "life_expectancy": 87
+        }
+    },
+    {
+        "name": "Lauren Mccarthy",
+        "birthdate": "1998-11-03",
+        "features": {
+            "heartrate_average_last_3_days": 77,
+            "blood_pressure_diastolic": 60,
+            "blood_pressure_sistolic": 139,
+            "age": 26
+        },
+        "target": {
+            "life_expectancy": 75
+        }
+    },
+    {
+        "name": "Dustin Ferguson",
+        "birthdate": "1955-04-16",
+        "features": {
+            "heartrate_average_last_3_days": 73,
+            "blood_pressure_diastolic": 85,
+            "blood_pressure_sistolic": 130,
+            "age": 70
+        },
+        "target": {
+            "life_expectancy": 91
+        }
+    },
+    {
+        "name": "Ashley Wilson",
+        "birthdate": "1994-08-16",
+        "features": {
+            "heartrate_average_last_3_days": 66,
+            "blood_pressure_diastolic": 61,
+            "blood_pressure_sistolic": 137,
+            "age": 30
+        },
+        "target": {
+            "life_expectancy": 98
+        }
+    },
+    {
+        "name": "Paula Grimes",
+        "birthdate": "1960-05-28",
+        "features": {
+            "heartrate_average_last_3_days": 90,
+            "blood_pressure_diastolic": 77,
+            "blood_pressure_sistolic": 114,
+            "age": 65
+        },
+        "target": {
+            "life_expectancy": 82
+        }
+    },
+    {
+        "name": "Joel Flores",
+        "birthdate": "1966-11-04",
+        "features": {
+            "heartrate_average_last_3_days": 91,
+            "blood_pressure_diastolic": 88,
+            "blood_pressure_sistolic": 96,
+            "age": 58
+        },
+        "target": {
+            "life_expectancy": 66
+        }
+    },
+    {
+        "name": "Maurice Ellis",
+        "birthdate": "1947-11-10",
+        "features": {
+            "heartrate_average_last_3_days": 89,
+            "blood_pressure_diastolic": 79,
+            "blood_pressure_sistolic": 129,
+            "age": 77
+        },
+        "target": {
+            "life_expectancy": 92
+        }
+    },
+    {
+        "name": "Olivia Guerra",
+        "birthdate": "1981-04-14",
+        "features": {
+            "heartrate_average_last_3_days": 91,
+            "blood_pressure_diastolic": 77,
+            "blood_pressure_sistolic": 130,
+            "age": 44
+        },
+        "target": {
+            "life_expectancy": 94
+        }
+    },
+    {
+        "name": "Justin Fry",
+        "birthdate": "1982-01-12",
+        "features": {
+            "heartrate_average_last_3_days": 74,
+            "blood_pressure_diastolic": 60,
+            "blood_pressure_sistolic": 116,
+            "age": 43
+        },
+        "target": {
+            "life_expectancy": 79
+        }
+    },
+    {
+        "name": "Darrell Gilmore",
+        "birthdate": "1982-11-28",
+        "features": {
+            "heartrate_average_last_3_days": 62,
+            "blood_pressure_diastolic": 86,
+            "blood_pressure_sistolic": 131,
+            "age": 42
+        },
+        "target": {
+            "life_expectancy": 83
+        }
+    },
+    {
+        "name": "Mary Tyler",
+        "birthdate": "1999-05-11",
+        "features": {
+            "heartrate_average_last_3_days": 69,
+            "blood_pressure_diastolic": 76,
+            "blood_pressure_sistolic": 110,
+            "age": 26
+        },
+        "target": {
+            "life_expectancy": 70
+        }
+    },
+    {
+        "name": "Vanessa Williams",
+        "birthdate": "1987-02-18",
+        "features": {
+            "heartrate_average_last_3_days": 80,
+            "blood_pressure_diastolic": 75,
+            "blood_pressure_sistolic": 116,
+            "age": 38
+        },
+        "target": {
+            "life_expectancy": 86
+        }
+    },
+    {
+        "name": "Anthony Morris",
+        "birthdate": "1989-05-02",
+        "features": {
+            "heartrate_average_last_3_days": 63,
+            "blood_pressure_diastolic": 79,
+            "blood_pressure_sistolic": 115,
+            "age": 36
+        },
+        "target": {
+            "life_expectancy": 78
+        }
+    },
+    {
+        "name": "Mark Smith",
+        "birthdate": "1943-04-13",
+        "features": {
+            "heartrate_average_last_3_days": 73,
+            "blood_pressure_diastolic": 64,
+            "blood_pressure_sistolic": 104,
+            "age": 82
+        },
+        "target": {
+            "life_expectancy": 81
+        }
+    },
+    {
+        "name": "Kelly Mcgee",
+        "birthdate": "1982-01-06",
+        "features": {
+            "heartrate_average_last_3_days": 67,
+            "blood_pressure_diastolic": 85,
+            "blood_pressure_sistolic": 112,
+            "age": 43
+        },
+        "target": {
+            "life_expectancy": 85
+        }
+    },
+    {
+        "name": "Donald Dixon",
+        "birthdate": "2000-08-13",
+        "features": {
+            "heartrate_average_last_3_days": 63,
+            "blood_pressure_diastolic": 73,
+            "blood_pressure_sistolic": 99,
+            "age": 24
+        },
+        "target": {
+            "life_expectancy": 65
+        }
+    },
+    {
+        "name": "Deborah Martinez DDS",
+        "birthdate": "1975-02-22",
+        "features": {
+            "heartrate_average_last_3_days": 62,
+            "blood_pressure_diastolic": 65,
+            "blood_pressure_sistolic": 111,
+            "age": 50
+        },
+        "target": {
+            "life_expectancy": 98
+        }
+    },
+    {
+        "name": "Jimmy Moore",
+        "birthdate": "1945-08-16",
+        "features": {
+            "heartrate_average_last_3_days": 76,
+            "blood_pressure_diastolic": 80,
+            "blood_pressure_sistolic": 99,
+            "age": 79
+        },
+        "target": {
+            "life_expectancy": 77
+        }
+    },
+    {
+        "name": "David Deleon",
+        "birthdate": "1944-12-31",
+        "features": {
+            "heartrate_average_last_3_days": 83,
+            "blood_pressure_diastolic": 76,
+            "blood_pressure_sistolic": 99,
+            "age": 80
+        },
+        "target": {
+            "life_expectancy": 68
+        }
+    },
+    {
+        "name": "Hector Kane",
+        "birthdate": "1992-01-08",
+        "features": {
+            "heartrate_average_last_3_days": 65,
+            "blood_pressure_diastolic": 77,
+            "blood_pressure_sistolic": 115,
+            "age": 33
+        },
+        "target": {
+            "life_expectancy": 65
+        }
+    },
+    {
+        "name": "Matthew Willis",
+        "birthdate": "1986-10-23",
+        "features": {
+            "heartrate_average_last_3_days": 96,
+            "blood_pressure_diastolic": 87,
+            "blood_pressure_sistolic": 121,
+            "age": 38
+        },
+        "target": {
+            "life_expectancy": 86
+        }
+    },
+    {
+        "name": "Lawrence Proctor",
+        "birthdate": "1980-03-11",
+        "features": {
+            "heartrate_average_last_3_days": 75,
+            "blood_pressure_diastolic": 64,
+            "blood_pressure_sistolic": 136,
+            "age": 45
+        },
+        "target": {
+            "life_expectancy": 79
+        }
+    },
+    {
+        "name": "Michael Waters",
+        "birthdate": "2002-05-23",
+        "features": {
+            "heartrate_average_last_3_days": 95,
+            "blood_pressure_diastolic": 67,
+            "blood_pressure_sistolic": 139,
+            "age": 23
+        },
+        "target": {
+            "life_expectancy": 67
+        }
+    },
+    {
+        "name": "Rebecca Kramer",
+        "birthdate": "1998-01-15",
+        "features": {
+            "heartrate_average_last_3_days": 93,
+            "blood_pressure_diastolic": 75,
+            "blood_pressure_sistolic": 122,
+            "age": 27
+        },
+        "target": {
+            "life_expectancy": 68
+        }
+    },
+    {
+        "name": "Michael Campbell",
+        "birthdate": "1956-08-18",
+        "features": {
+            "heartrate_average_last_3_days": 93,
+            "blood_pressure_diastolic": 68,
+            "blood_pressure_sistolic": 118,
+            "age": 68
+        },
+        "target": {
+            "life_expectancy": 96
+        }
+    },
+    {
+        "name": "Andrew Stewart",
+        "birthdate": "1954-12-06",
+        "features": {
+            "heartrate_average_last_3_days": 98,
+            "blood_pressure_diastolic": 75,
+            "blood_pressure_sistolic": 112,
+            "age": 70
+        },
+        "target": {
+            "life_expectancy": 78
+        }
+    },
+    {
+        "name": "Ashley Dunn",
+        "birthdate": "1984-07-16",
+        "features": {
+            "heartrate_average_last_3_days": 87,
+            "blood_pressure_diastolic": 75,
+            "blood_pressure_sistolic": 123,
+            "age": 40
+        },
+        "target": {
+            "life_expectancy": 73
+        }
+    },
+    {
+        "name": "Laura Manning",
+        "birthdate": "1996-04-25",
+        "features": {
+            "heartrate_average_last_3_days": 93,
+            "blood_pressure_diastolic": 61,
+            "blood_pressure_sistolic": 98,
+            "age": 29
+        },
+        "target": {
+            "life_expectancy": 76
+        }
+    },
+    {
+        "name": "Ann Robles",
+        "birthdate": "1997-01-05",
+        "features": {
+            "heartrate_average_last_3_days": 83,
+            "blood_pressure_diastolic": 88,
+            "blood_pressure_sistolic": 132,
+            "age": 28
+        },
+        "target": {
+            "life_expectancy": 97
+        }
+    },
+    {
+        "name": "Emily Tucker",
+        "birthdate": "1981-04-16",
+        "features": {
+            "heartrate_average_last_3_days": 62,
+            "blood_pressure_diastolic": 68,
+            "blood_pressure_sistolic": 108,
+            "age": 44
+        },
+        "target": {
+            "life_expectancy": 92
+        }
+    },
+    {
+        "name": "Andre Sanchez",
+        "birthdate": "2003-01-22",
+        "features": {
+            "heartrate_average_last_3_days": 61,
+            "blood_pressure_diastolic": 60,
+            "blood_pressure_sistolic": 99,
+            "age": 22
+        },
+        "target": {
+            "life_expectancy": 80
+        }
+    },
+    {
+        "name": "Scott Jones",
+        "birthdate": "1944-06-01",
+        "features": {
+            "heartrate_average_last_3_days": 62,
+            "blood_pressure_diastolic": 74,
+            "blood_pressure_sistolic": 130,
+            "age": 81
+        },
+        "target": {
+            "life_expectancy": 90
+        }
+    },
+    {
+        "name": "Jason Saunders",
+        "birthdate": "1965-01-25",
+        "features": {
+            "heartrate_average_last_3_days": 91,
+            "blood_pressure_diastolic": 67,
+            "blood_pressure_sistolic": 99,
+            "age": 60
+        },
+        "target": {
+            "life_expectancy": 98
+        }
+    },
+    {
+        "name": "Dwayne Baker",
+        "birthdate": "2000-03-11",
+        "features": {
+            "heartrate_average_last_3_days": 64,
+            "blood_pressure_diastolic": 74,
+            "blood_pressure_sistolic": 122,
+            "age": 25
+        },
+        "target": {
+            "life_expectancy": 79
+        }
+    },
+    {
+        "name": "Mark Hughes",
+        "birthdate": "1979-11-12",
+        "features": {
+            "heartrate_average_last_3_days": 95,
+            "blood_pressure_diastolic": 89,
+            "blood_pressure_sistolic": 100,
+            "age": 45
+        },
+        "target": {
+            "life_expectancy": 97
+        }
+    },
+    {
+        "name": "Lorraine Wood",
+        "birthdate": "1959-12-17",
+        "features": {
+            "heartrate_average_last_3_days": 60,
+            "blood_pressure_diastolic": 76,
+            "blood_pressure_sistolic": 113,
+            "age": 65
+        },
+        "target": {
+            "life_expectancy": 78
+        }
+    },
+    {
+        "name": "Terri Price",
+        "birthdate": "1938-05-25",
+        "features": {
+            "heartrate_average_last_3_days": 83,
+            "blood_pressure_diastolic": 85,
+            "blood_pressure_sistolic": 97,
+            "age": 87
+        },
+        "target": {
+            "life_expectancy": 85
+        }
+    },
+    {
+        "name": "Peter Miller",
+        "birthdate": "1942-04-09",
+        "features": {
+            "heartrate_average_last_3_days": 96,
+            "blood_pressure_diastolic": 83,
+            "blood_pressure_sistolic": 135,
+            "age": 83
+        },
+        "target": {
+            "life_expectancy": 87
+        }
+    },
+    {
+        "name": "Nancy Brown",
+        "birthdate": "1971-05-11",
+        "features": {
+            "heartrate_average_last_3_days": 64,
+            "blood_pressure_diastolic": 73,
+            "blood_pressure_sistolic": 128,
+            "age": 54
+        },
+        "target": {
+            "life_expectancy": 98
+        }
+    },
+    {
+        "name": "Melissa Hoffman",
+        "birthdate": "1956-10-11",
+        "features": {
+            "heartrate_average_last_3_days": 98,
+            "blood_pressure_diastolic": 78,
+            "blood_pressure_sistolic": 101,
+            "age": 68
+        },
+        "target": {
+            "life_expectancy": 68
+        }
+    },
+    {
+        "name": "Kevin King",
+        "birthdate": "1995-11-01",
+        "features": {
+            "heartrate_average_last_3_days": 63,
+            "blood_pressure_diastolic": 72,
+            "blood_pressure_sistolic": 137,
+            "age": 29
+        },
+        "target": {
+            "life_expectancy": 72
+        }
+    },
+    {
+        "name": "Kathleen Martinez",
+        "birthdate": "1976-03-02",
+        "features": {
+            "heartrate_average_last_3_days": 86,
+            "blood_pressure_diastolic": 84,
+            "blood_pressure_sistolic": 97,
+            "age": 49
+        },
+        "target": {
+            "life_expectancy": 91
+        }
+    },
+    {
+        "name": "Jessica Banks",
+        "birthdate": "1983-01-01",
+        "features": {
+            "heartrate_average_last_3_days": 98,
+            "blood_pressure_diastolic": 60,
+            "blood_pressure_sistolic": 92,
+            "age": 42
+        },
+        "target": {
+            "life_expectancy": 79
+        }
+    },
+    {
+        "name": "Dustin Holmes",
+        "birthdate": "1962-07-07",
+        "features": {
+            "heartrate_average_last_3_days": 73,
+            "blood_pressure_diastolic": 68,
+            "blood_pressure_sistolic": 139,
+            "age": 62
+        },
+        "target": {
+            "life_expectancy": 74
+        }
+    },
+    {
+        "name": "Tyrone White",
+        "birthdate": "1990-04-23",
+        "features": {
+            "heartrate_average_last_3_days": 77,
+            "blood_pressure_diastolic": 81,
+            "blood_pressure_sistolic": 133,
+            "age": 35
+        },
+        "target": {
+            "life_expectancy": 92
+        }
+    },
+    {
+        "name": "Margaret Elliott",
+        "birthdate": "1991-10-10",
+        "features": {
+            "heartrate_average_last_3_days": 77,
+            "blood_pressure_diastolic": 87,
+            "blood_pressure_sistolic": 108,
+            "age": 33
+        },
+        "target": {
+            "life_expectancy": 88
+        }
+    },
+    {
+        "name": "Michael Mccoy",
+        "birthdate": "1944-01-01",
+        "features": {
+            "heartrate_average_last_3_days": 82,
+            "blood_pressure_diastolic": 74,
+            "blood_pressure_sistolic": 109,
+            "age": 81
+        },
+        "target": {
+            "life_expectancy": 80
+        }
+    },
+    {
+        "name": "Danielle Sloan",
+        "birthdate": "1996-08-05",
+        "features": {
+            "heartrate_average_last_3_days": 76,
+            "blood_pressure_diastolic": 88,
+            "blood_pressure_sistolic": 98,
+            "age": 28
+        },
+        "target": {
+            "life_expectancy": 79
+        }
+    },
+    {
+        "name": "Jennifer Ramirez",
+        "birthdate": "1963-10-10",
+        "features": {
+            "heartrate_average_last_3_days": 69,
+            "blood_pressure_diastolic": 69,
+            "blood_pressure_sistolic": 95,
+            "age": 61
+        },
+        "target": {
+            "life_expectancy": 85
+        }
+    },
+    {
+        "name": "David Gallagher",
+        "birthdate": "1988-11-27",
+        "features": {
+            "heartrate_average_last_3_days": 93,
+            "blood_pressure_diastolic": 73,
+            "blood_pressure_sistolic": 112,
+            "age": 36
+        },
+        "target": {
+            "life_expectancy": 89
+        }
+    },
+    {
+        "name": "John Clarke",
+        "birthdate": "1942-07-02",
+        "features": {
+            "heartrate_average_last_3_days": 94,
+            "blood_pressure_diastolic": 82,
+            "blood_pressure_sistolic": 106,
+            "age": 83
+        },
+        "target": {
+            "life_expectancy": 83
+        }
+    },
+    {
+        "name": "Vincent Estes",
+        "birthdate": "2004-01-18",
+        "features": {
+            "heartrate_average_last_3_days": 73,
+            "blood_pressure_diastolic": 78,
+            "blood_pressure_sistolic": 125,
+            "age": 21
+        },
+        "target": {
+            "life_expectancy": 98
+        }
+    },
+    {
+        "name": "Tracy Bryan",
+        "birthdate": "1956-03-30",
+        "features": {
+            "heartrate_average_last_3_days": 72,
+            "blood_pressure_diastolic": 77,
+            "blood_pressure_sistolic": 120,
+            "age": 69
+        },
+        "target": {
+            "life_expectancy": 70
+        }
+    },
+    {
+        "name": "Jeffrey Garcia",
+        "birthdate": "1979-10-17",
+        "features": {
+            "heartrate_average_last_3_days": 89,
+            "blood_pressure_diastolic": 79,
+            "blood_pressure_sistolic": 98,
+            "age": 45
+        },
+        "target": {
+            "life_expectancy": 90
+        }
+    },
+    {
+        "name": "Michael Carpenter",
+        "birthdate": "1966-07-22",
+        "features": {
+            "heartrate_average_last_3_days": 97,
+            "blood_pressure_diastolic": 61,
+            "blood_pressure_sistolic": 128,
+            "age": 58
+        },
+        "target": {
+            "life_expectancy": 98
+        }
+    },
+    {
+        "name": "Michelle Hayes",
+        "birthdate": "1985-04-24",
+        "features": {
+            "heartrate_average_last_3_days": 63,
+            "blood_pressure_diastolic": 60,
+            "blood_pressure_sistolic": 92,
+            "age": 40
+        },
+        "target": {
+            "life_expectancy": 70
+        }
+    },
+    {
+        "name": "Laura Reid",
+        "birthdate": "1974-12-05",
+        "features": {
+            "heartrate_average_last_3_days": 93,
+            "blood_pressure_diastolic": 78,
+            "blood_pressure_sistolic": 90,
+            "age": 50
+        },
+        "target": {
+            "life_expectancy": 76
+        }
+    },
+    {
+        "name": "Brent Warren",
+        "birthdate": "1985-09-22",
+        "features": {
+            "heartrate_average_last_3_days": 93,
+            "blood_pressure_diastolic": 74,
+            "blood_pressure_sistolic": 96,
+            "age": 39
+        },
+        "target": {
+            "life_expectancy": 77
+        }
+    },
+    {
+        "name": "Deborah Gray",
+        "birthdate": "1996-12-11",
+        "features": {
+            "heartrate_average_last_3_days": 63,
+            "blood_pressure_diastolic": 88,
+            "blood_pressure_sistolic": 117,
+            "age": 28
+        },
+        "target": {
+            "life_expectancy": 94
+        }
+    },
+    {
+        "name": "Sonia King",
+        "birthdate": "1948-01-07",
+        "features": {
+            "heartrate_average_last_3_days": 75,
+            "blood_pressure_diastolic": 76,
+            "blood_pressure_sistolic": 92,
+            "age": 77
+        },
+        "target": {
+            "life_expectancy": 97
+        }
+    },
+    {
+        "name": "Scott Holloway",
+        "birthdate": "1972-02-09",
+        "features": {
+            "heartrate_average_last_3_days": 84,
+            "blood_pressure_diastolic": 88,
+            "blood_pressure_sistolic": 121,
+            "age": 53
+        },
+        "target": {
+            "life_expectancy": 67
+        }
+    },
+    {
+        "name": "Larry Braun",
+        "birthdate": "1954-02-17",
+        "features": {
+            "heartrate_average_last_3_days": 95,
+            "blood_pressure_diastolic": 73,
+            "blood_pressure_sistolic": 129,
+            "age": 71
+        },
+        "target": {
+            "life_expectancy": 94
+        }
+    },
+    {
+        "name": "Olivia Jones",
+        "birthdate": "1939-05-20",
+        "features": {
+            "heartrate_average_last_3_days": 83,
+            "blood_pressure_diastolic": 76,
+            "blood_pressure_sistolic": 128,
+            "age": 86
+        },
+        "target": {
+            "life_expectancy": 83
+        }
+    },
+    {
+        "name": "Andrew Conway",
+        "birthdate": "1957-06-18",
+        "features": {
+            "heartrate_average_last_3_days": 66,
+            "blood_pressure_diastolic": 70,
+            "blood_pressure_sistolic": 135,
+            "age": 68
+        },
+        "target": {
+            "life_expectancy": 96
+        }
+    },
+    {
+        "name": "Daniel Oneill",
+        "birthdate": "1975-06-14",
+        "features": {
+            "heartrate_average_last_3_days": 60,
+            "blood_pressure_diastolic": 72,
+            "blood_pressure_sistolic": 131,
+            "age": 50
+        },
+        "target": {
+            "life_expectancy": 92
+        }
+    },
+    {
+        "name": "Jerry Gonzalez",
+        "birthdate": "1941-07-12",
+        "features": {
+            "heartrate_average_last_3_days": 82,
+            "blood_pressure_diastolic": 89,
+            "blood_pressure_sistolic": 116,
+            "age": 83
+        },
+        "target": {
+            "life_expectancy": 81
+        }
+    },
+    {
+        "name": "Chris Sanchez",
+        "birthdate": "1973-06-16",
+        "features": {
+            "heartrate_average_last_3_days": 70,
+            "blood_pressure_diastolic": 68,
+            "blood_pressure_sistolic": 124,
+            "age": 52
+        },
+        "target": {
+            "life_expectancy": 86
+        }
+    },
+    {
+        "name": "Lisa Stephens MD",
+        "birthdate": "1957-03-11",
+        "features": {
+            "heartrate_average_last_3_days": 97,
+            "blood_pressure_diastolic": 65,
+            "blood_pressure_sistolic": 138,
+            "age": 68
+        },
+        "target": {
+            "life_expectancy": 73
+        }
+    },
+    {
+        "name": "James Park",
+        "birthdate": "1961-09-09",
+        "features": {
+            "heartrate_average_last_3_days": 90,
+            "blood_pressure_diastolic": 80,
+            "blood_pressure_sistolic": 136,
+            "age": 63
+        },
+        "target": {
+            "life_expectancy": 98
+        }
+    },
+    {
+        "name": "Ann Lopez",
+        "birthdate": "1990-04-10",
+        "features": {
+            "heartrate_average_last_3_days": 69,
+            "blood_pressure_diastolic": 72,
+            "blood_pressure_sistolic": 112,
+            "age": 35
+        },
+        "target": {
+            "life_expectancy": 76
+        }
+    },
+    {
+        "name": "Kathleen Weaver",
+        "birthdate": "1978-05-01",
+        "features": {
+            "heartrate_average_last_3_days": 76,
+            "blood_pressure_diastolic": 79,
+            "blood_pressure_sistolic": 127,
+            "age": 47
+        },
+        "target": {
+            "life_expectancy": 67
+        }
+    },
+    {
+        "name": "Sheri Koch",
+        "birthdate": "1970-07-02",
+        "features": {
+            "heartrate_average_last_3_days": 96,
+            "blood_pressure_diastolic": 67,
+            "blood_pressure_sistolic": 100,
+            "age": 55
+        },
+        "target": {
+            "life_expectancy": 91
+        }
+    },
+    {
+        "name": "Miss Kristen Ortega",
+        "birthdate": "1938-10-01",
+        "features": {
+            "heartrate_average_last_3_days": 66,
+            "blood_pressure_diastolic": 68,
+            "blood_pressure_sistolic": 119,
+            "age": 86
+        },
+        "target": {
+            "life_expectancy": 68
+        }
+    },
+    {
+        "name": "Scott Davis",
+        "birthdate": "1984-02-06",
+        "features": {
+            "heartrate_average_last_3_days": 71,
+            "blood_pressure_diastolic": 71,
+            "blood_pressure_sistolic": 137,
+            "age": 41
+        },
+        "target": {
+            "life_expectancy": 98
+        }
+    },
+    {
+        "name": "Gary Moody",
+        "birthdate": "1991-12-16",
+        "features": {
+            "heartrate_average_last_3_days": 61,
+            "blood_pressure_diastolic": 62,
+            "blood_pressure_sistolic": 120,
+            "age": 33
+        },
+        "target": {
+            "life_expectancy": 91
+        }
+    },
+    {
+        "name": "Justin Proctor",
+        "birthdate": "1935-08-08",
+        "features": {
+            "heartrate_average_last_3_days": 79,
+            "blood_pressure_diastolic": 79,
+            "blood_pressure_sistolic": 112,
+            "age": 89
+        },
+        "target": {
+            "life_expectancy": 96
+        }
+    },
+    {
+        "name": "Jocelyn Stevens",
+        "birthdate": "1951-08-29",
+        "features": {
+            "heartrate_average_last_3_days": 77,
+            "blood_pressure_diastolic": 69,
+            "blood_pressure_sistolic": 111,
+            "age": 73
+        },
+        "target": {
+            "life_expectancy": 89
+        }
+    },
+    {
+        "name": "Jacob Stewart",
+        "birthdate": "1999-10-02",
+        "features": {
+            "heartrate_average_last_3_days": 76,
+            "blood_pressure_diastolic": 72,
+            "blood_pressure_sistolic": 97,
+            "age": 25
+        },
+        "target": {
+            "life_expectancy": 89
+        }
+    },
+    {
+        "name": "William Peters",
+        "birthdate": "1939-06-07",
+        "features": {
+            "heartrate_average_last_3_days": 75,
+            "blood_pressure_diastolic": 72,
+            "blood_pressure_sistolic": 107,
+            "age": 86
+        },
+        "target": {
+            "life_expectancy": 77
+        }
+    },
+    {
+        "name": "Dr. Marc Arias",
+        "birthdate": "1939-04-01",
+        "features": {
+            "heartrate_average_last_3_days": 72,
+            "blood_pressure_diastolic": 80,
+            "blood_pressure_sistolic": 121,
+            "age": 86
+        },
+        "target": {
+            "life_expectancy": 97
+        }
+    },
+    {
+        "name": "Grace Buckley",
+        "birthdate": "1963-04-06",
+        "features": {
+            "heartrate_average_last_3_days": 62,
+            "blood_pressure_diastolic": 80,
+            "blood_pressure_sistolic": 130,
+            "age": 62
+        },
+        "target": {
+            "life_expectancy": 80
+        }
+    },
+    {
+        "name": "Vanessa Francis",
+        "birthdate": "1982-02-22",
+        "features": {
+            "heartrate_average_last_3_days": 91,
+            "blood_pressure_diastolic": 88,
+            "blood_pressure_sistolic": 121,
+            "age": 43
+        },
+        "target": {
+            "life_expectancy": 74
+        }
+    },
+    {
+        "name": "Heather Barnett",
+        "birthdate": "1963-01-04",
+        "features": {
+            "heartrate_average_last_3_days": 64,
+            "blood_pressure_diastolic": 70,
+            "blood_pressure_sistolic": 125,
+            "age": 62
+        },
+        "target": {
+            "life_expectancy": 93
+        }
+    },
+    {
+        "name": "Donna Smith",
+        "birthdate": "1967-08-19",
+        "features": {
+            "heartrate_average_last_3_days": 79,
+            "blood_pressure_diastolic": 62,
+            "blood_pressure_sistolic": 110,
+            "age": 57
+        },
+        "target": {
+            "life_expectancy": 81
+        }
+    },
+    {
+        "name": "Seth Harris",
+        "birthdate": "1977-12-06",
+        "features": {
+            "heartrate_average_last_3_days": 82,
+            "blood_pressure_diastolic": 72,
+            "blood_pressure_sistolic": 98,
+            "age": 47
+        },
+        "target": {
+            "life_expectancy": 71
+        }
+    },
+    {
+        "name": "Samantha Robinson",
+        "birthdate": "1938-06-02",
+        "features": {
+            "heartrate_average_last_3_days": 78,
+            "blood_pressure_diastolic": 82,
+            "blood_pressure_sistolic": 90,
+            "age": 87
+        },
+        "target": {
+            "life_expectancy": 71
+        }
+    },
+    {
+        "name": "Andrea Compton",
+        "birthdate": "1975-05-20",
+        "features": {
+            "heartrate_average_last_3_days": 96,
+            "blood_pressure_diastolic": 78,
+            "blood_pressure_sistolic": 132,
+            "age": 50
+        },
+        "target": {
+            "life_expectancy": 79
+        }
+    },
+    {
+        "name": "Nancy Smith",
+        "birthdate": "2000-11-28",
+        "features": {
+            "heartrate_average_last_3_days": 72,
+            "blood_pressure_diastolic": 89,
+            "blood_pressure_sistolic": 137,
+            "age": 24
+        },
+        "target": {
+            "life_expectancy": 67
+        }
+    },
+    {
+        "name": "Mark Byrd",
+        "birthdate": "1936-10-04",
+        "features": {
+            "heartrate_average_last_3_days": 83,
+            "blood_pressure_diastolic": 64,
+            "blood_pressure_sistolic": 125,
+            "age": 88
+        },
+        "target": {
+            "life_expectancy": 80
+        }
+    },
+    {
+        "name": "Tina Walker",
+        "birthdate": "2000-08-17",
+        "features": {
+            "heartrate_average_last_3_days": 66,
+            "blood_pressure_diastolic": 68,
+            "blood_pressure_sistolic": 136,
+            "age": 24
+        },
+        "target": {
+            "life_expectancy": 78
+        }
+    },
+    {
+        "name": "Jamie Barr",
+        "birthdate": "1998-09-15",
+        "features": {
+            "heartrate_average_last_3_days": 61,
+            "blood_pressure_diastolic": 77,
+            "blood_pressure_sistolic": 112,
+            "age": 26
+        },
+        "target": {
+            "life_expectancy": 70
+        }
+    },
+    {
+        "name": "Sharon Phillips",
+        "birthdate": "1957-08-25",
+        "features": {
+            "heartrate_average_last_3_days": 82,
+            "blood_pressure_diastolic": 61,
+            "blood_pressure_sistolic": 109,
+            "age": 67
+        },
+        "target": {
+            "life_expectancy": 85
+        }
+    },
+    {
+        "name": "Stephanie Torres",
+        "birthdate": "1950-08-01",
+        "features": {
+            "heartrate_average_last_3_days": 75,
+            "blood_pressure_diastolic": 74,
+            "blood_pressure_sistolic": 102,
+            "age": 74
+        },
+        "target": {
+            "life_expectancy": 92
+        }
+    },
+    {
+        "name": "Chad Jones",
+        "birthdate": "2007-01-12",
+        "features": {
+            "heartrate_average_last_3_days": 64,
+            "blood_pressure_diastolic": 74,
+            "blood_pressure_sistolic": 101,
+            "age": 18
+        },
+        "target": {
+            "life_expectancy": 99
+        }
+    },
+    {
+        "name": "Rachel Soto",
+        "birthdate": "1943-01-19",
+        "features": {
+            "heartrate_average_last_3_days": 79,
+            "blood_pressure_diastolic": 77,
+            "blood_pressure_sistolic": 107,
+            "age": 82
+        },
+        "target": {
+            "life_expectancy": 73
+        }
+    },
+    {
+        "name": "Alan Williams",
+        "birthdate": "2001-06-03",
+        "features": {
+            "heartrate_average_last_3_days": 66,
+            "blood_pressure_diastolic": 64,
+            "blood_pressure_sistolic": 127,
+            "age": 24
+        },
+        "target": {
+            "life_expectancy": 99
+        }
+    },
+    {
+        "name": "Maria Murphy",
+        "birthdate": "1936-07-29",
+        "features": {
+            "heartrate_average_last_3_days": 82,
+            "blood_pressure_diastolic": 61,
+            "blood_pressure_sistolic": 90,
+            "age": 88
+        },
+        "target": {
+            "life_expectancy": 81
+        }
+    },
+    {
+        "name": "Danielle Moreno PhD",
+        "birthdate": "1959-06-26",
+        "features": {
+            "heartrate_average_last_3_days": 75,
+            "blood_pressure_diastolic": 85,
+            "blood_pressure_sistolic": 138,
+            "age": 66
+        },
+        "target": {
+            "life_expectancy": 88
+        }
+    },
+    {
+        "name": "Dalton Fernandez",
+        "birthdate": "1961-02-04",
+        "features": {
+            "heartrate_average_last_3_days": 98,
+            "blood_pressure_diastolic": 78,
+            "blood_pressure_sistolic": 118,
+            "age": 64
+        },
+        "target": {
+            "life_expectancy": 68
+        }
+    },
+    {
+        "name": "Matthew Fry",
+        "birthdate": "1956-09-09",
+        "features": {
+            "heartrate_average_last_3_days": 78,
+            "blood_pressure_diastolic": 62,
+            "blood_pressure_sistolic": 115,
+            "age": 68
+        },
+        "target": {
+            "life_expectancy": 78
+        }
+    },
+    {
+        "name": "Danny Maynard",
+        "birthdate": "1985-12-16",
+        "features": {
+            "heartrate_average_last_3_days": 74,
+            "blood_pressure_diastolic": 78,
+            "blood_pressure_sistolic": 116,
+            "age": 39
+        },
+        "target": {
+            "life_expectancy": 69
+        }
+    },
+    {
+        "name": "Patricia Mcclure",
+        "birthdate": "1951-04-06",
+        "features": {
+            "heartrate_average_last_3_days": 64,
+            "blood_pressure_diastolic": 62,
+            "blood_pressure_sistolic": 100,
+            "age": 74
+        },
+        "target": {
+            "life_expectancy": 71
+        }
+    },
+    {
+        "name": "Dr. Debra Davis",
+        "birthdate": "1996-12-03",
+        "features": {
+            "heartrate_average_last_3_days": 85,
+            "blood_pressure_diastolic": 60,
+            "blood_pressure_sistolic": 138,
+            "age": 28
+        },
+        "target": {
+            "life_expectancy": 83
+        }
+    },
+    {
+        "name": "Shelia Allen",
+        "birthdate": "1998-04-25",
+        "features": {
+            "heartrate_average_last_3_days": 76,
+            "blood_pressure_diastolic": 70,
+            "blood_pressure_sistolic": 136,
+            "age": 27
+        },
+        "target": {
+            "life_expectancy": 78
+        }
+    },
+    {
+        "name": "Sophia Hendricks",
+        "birthdate": "1970-09-11",
+        "features": {
+            "heartrate_average_last_3_days": 73,
+            "blood_pressure_diastolic": 72,
+            "blood_pressure_sistolic": 134,
+            "age": 54
+        },
+        "target": {
+            "life_expectancy": 99
+        }
+    },
+    {
+        "name": "Brian Hardy",
+        "birthdate": "1999-08-18",
+        "features": {
+            "heartrate_average_last_3_days": 85,
+            "blood_pressure_diastolic": 74,
+            "blood_pressure_sistolic": 129,
+            "age": 25
+        },
+        "target": {
+            "life_expectancy": 68
+        }
+    },
+    {
+        "name": "April Sullivan",
+        "birthdate": "1973-01-06",
+        "features": {
+            "heartrate_average_last_3_days": 80,
+            "blood_pressure_diastolic": 68,
+            "blood_pressure_sistolic": 136,
+            "age": 52
+        },
+        "target": {
+            "life_expectancy": 80
+        }
+    },
+    {
+        "name": "Jerry Li",
+        "birthdate": "1966-10-03",
+        "features": {
+            "heartrate_average_last_3_days": 61,
+            "blood_pressure_diastolic": 85,
+            "blood_pressure_sistolic": 94,
+            "age": 58
+        },
+        "target": {
+            "life_expectancy": 77
+        }
+    },
+    {
+        "name": "Mary Frazier",
+        "birthdate": "2007-01-14",
+        "features": {
+            "heartrate_average_last_3_days": 96,
+            "blood_pressure_diastolic": 84,
+            "blood_pressure_sistolic": 104,
+            "age": 18
+        },
+        "target": {
+            "life_expectancy": 86
+        }
+    },
+    {
+        "name": "Levi Munoz",
+        "birthdate": "1975-06-14",
+        "features": {
+            "heartrate_average_last_3_days": 87,
+            "blood_pressure_diastolic": 78,
+            "blood_pressure_sistolic": 126,
+            "age": 50
+        },
+        "target": {
+            "life_expectancy": 74
+        }
+    },
+    {
+        "name": "Jenna Hayes",
+        "birthdate": "1948-06-27",
+        "features": {
+            "heartrate_average_last_3_days": 66,
+            "blood_pressure_diastolic": 62,
+            "blood_pressure_sistolic": 121,
+            "age": 77
+        },
+        "target": {
+            "life_expectancy": 95
+        }
+    },
+    {
+        "name": "Lindsay Chan MD",
+        "birthdate": "1943-05-31",
+        "features": {
+            "heartrate_average_last_3_days": 95,
+            "blood_pressure_diastolic": 66,
+            "blood_pressure_sistolic": 119,
+            "age": 82
+        },
+        "target": {
+            "life_expectancy": 91
+        }
+    },
+    {
+        "name": "Lori Macias",
+        "birthdate": "1954-11-19",
+        "features": {
+            "heartrate_average_last_3_days": 87,
+            "blood_pressure_diastolic": 72,
+            "blood_pressure_sistolic": 132,
+            "age": 70
+        },
+        "target": {
+            "life_expectancy": 89
+        }
+    },
+    {
+        "name": "Vanessa Hanna",
+        "birthdate": "1992-08-19",
+        "features": {
+            "heartrate_average_last_3_days": 75,
+            "blood_pressure_diastolic": 72,
+            "blood_pressure_sistolic": 131,
+            "age": 32
+        },
+        "target": {
+            "life_expectancy": 81
+        }
+    },
+    {
+        "name": "Gary Rodgers",
+        "birthdate": "1959-06-05",
+        "features": {
+            "heartrate_average_last_3_days": 80,
+            "blood_pressure_diastolic": 86,
+            "blood_pressure_sistolic": 122,
+            "age": 66
+        },
+        "target": {
+            "life_expectancy": 83
+        }
+    },
+    {
+        "name": "Jennifer Chapman",
+        "birthdate": "1946-02-04",
+        "features": {
+            "heartrate_average_last_3_days": 88,
+            "blood_pressure_diastolic": 66,
+            "blood_pressure_sistolic": 119,
+            "age": 79
+        },
+        "target": {
+            "life_expectancy": 96
+        }
+    },
+    {
+        "name": "Dr. Aaron Davis",
+        "birthdate": "1960-05-12",
+        "features": {
+            "heartrate_average_last_3_days": 77,
+            "blood_pressure_diastolic": 89,
+            "blood_pressure_sistolic": 98,
+            "age": 65
+        },
+        "target": {
+            "life_expectancy": 87
+        }
+    },
+    {
+        "name": "Garrett Hardin",
+        "birthdate": "1947-11-09",
+        "features": {
+            "heartrate_average_last_3_days": 91,
+            "blood_pressure_diastolic": 67,
+            "blood_pressure_sistolic": 116,
+            "age": 77
+        },
+        "target": {
+            "life_expectancy": 90
+        }
+    },
+    {
+        "name": "James Brennan",
+        "birthdate": "1990-09-07",
+        "features": {
+            "heartrate_average_last_3_days": 75,
+            "blood_pressure_diastolic": 89,
+            "blood_pressure_sistolic": 128,
+            "age": 34
+        },
+        "target": {
+            "life_expectancy": 82
+        }
+    },
+    {
+        "name": "Joshua Davis",
+        "birthdate": "1993-06-26",
+        "features": {
+            "heartrate_average_last_3_days": 78,
+            "blood_pressure_diastolic": 75,
+            "blood_pressure_sistolic": 115,
+            "age": 32
+        },
+        "target": {
+            "life_expectancy": 75
+        }
+    },
+    {
+        "name": "Tiffany Mccoy",
+        "birthdate": "1986-03-11",
+        "features": {
+            "heartrate_average_last_3_days": 66,
+            "blood_pressure_diastolic": 64,
+            "blood_pressure_sistolic": 135,
+            "age": 39
+        },
+        "target": {
+            "life_expectancy": 65
+        }
+    },
+    {
+        "name": "Ryan Marquez",
+        "birthdate": "1988-02-04",
+        "features": {
+            "heartrate_average_last_3_days": 67,
+            "blood_pressure_diastolic": 65,
+            "blood_pressure_sistolic": 129,
+            "age": 37
+        },
+        "target": {
+            "life_expectancy": 80
+        }
+    },
+    {
+        "name": "Tiffany Bowman",
+        "birthdate": "2005-05-14",
+        "features": {
+            "heartrate_average_last_3_days": 88,
+            "blood_pressure_diastolic": 64,
+            "blood_pressure_sistolic": 135,
+            "age": 20
+        },
+        "target": {
+            "life_expectancy": 94
+        }
+    },
+    {
+        "name": "Anna Henderson",
+        "birthdate": "1998-02-27",
+        "features": {
+            "heartrate_average_last_3_days": 69,
+            "blood_pressure_diastolic": 83,
+            "blood_pressure_sistolic": 118,
+            "age": 27
+        },
+        "target": {
+            "life_expectancy": 71
+        }
+    },
+    {
+        "name": "Amber Roth",
+        "birthdate": "1951-10-13",
+        "features": {
+            "heartrate_average_last_3_days": 84,
+            "blood_pressure_diastolic": 82,
+            "blood_pressure_sistolic": 112,
+            "age": 73
+        },
+        "target": {
+            "life_expectancy": 77
+        }
+    },
+    {
+        "name": "William Allen",
+        "birthdate": "1979-12-25",
+        "features": {
+            "heartrate_average_last_3_days": 71,
+            "blood_pressure_diastolic": 62,
+            "blood_pressure_sistolic": 120,
+            "age": 45
+        },
+        "target": {
+            "life_expectancy": 93
+        }
+    },
+    {
+        "name": "Robert Miller DVM",
+        "birthdate": "1976-09-24",
+        "features": {
+            "heartrate_average_last_3_days": 86,
+            "blood_pressure_diastolic": 73,
+            "blood_pressure_sistolic": 90,
+            "age": 48
+        },
+        "target": {
+            "life_expectancy": 91
+        }
+    },
+    {
+        "name": "Angela Richardson",
+        "birthdate": "1957-02-21",
+        "features": {
+            "heartrate_average_last_3_days": 66,
+            "blood_pressure_diastolic": 65,
+            "blood_pressure_sistolic": 109,
+            "age": 68
+        },
+        "target": {
+            "life_expectancy": 95
+        }
+    },
+    {
+        "name": "Linda Hooper",
+        "birthdate": "1959-08-28",
+        "features": {
+            "heartrate_average_last_3_days": 69,
+            "blood_pressure_diastolic": 85,
+            "blood_pressure_sistolic": 128,
+            "age": 65
+        },
+        "target": {
+            "life_expectancy": 76
+        }
+    },
+    {
+        "name": "Kristen Fernandez",
+        "birthdate": "1937-04-20",
+        "features": {
+            "heartrate_average_last_3_days": 62,
+            "blood_pressure_diastolic": 73,
+            "blood_pressure_sistolic": 135,
+            "age": 88
+        },
+        "target": {
+            "life_expectancy": 94
+        }
+    },
+    {
+        "name": "Adam Jackson",
+        "birthdate": "2004-05-05",
+        "features": {
+            "heartrate_average_last_3_days": 77,
+            "blood_pressure_diastolic": 63,
+            "blood_pressure_sistolic": 132,
+            "age": 21
+        },
+        "target": {
+            "life_expectancy": 72
+        }
+    },
+    {
+        "name": "Kathy Bruce",
+        "birthdate": "1973-03-20",
+        "features": {
+            "heartrate_average_last_3_days": 67,
+            "blood_pressure_diastolic": 71,
+            "blood_pressure_sistolic": 124,
+            "age": 52
+        },
+        "target": {
+            "life_expectancy": 85
+        }
+    },
+    {
+        "name": "Gina Moore",
+        "birthdate": "1949-03-12",
+        "features": {
+            "heartrate_average_last_3_days": 70,
+            "blood_pressure_diastolic": 82,
+            "blood_pressure_sistolic": 103,
+            "age": 76
+        },
+        "target": {
+            "life_expectancy": 89
+        }
+    },
+    {
+        "name": "James Wong",
+        "birthdate": "1945-12-07",
+        "features": {
+            "heartrate_average_last_3_days": 70,
+            "blood_pressure_diastolic": 89,
+            "blood_pressure_sistolic": 105,
+            "age": 79
+        },
+        "target": {
+            "life_expectancy": 72
+        }
+    },
+    {
+        "name": "Casey Mullen",
+        "birthdate": "1954-12-08",
+        "features": {
+            "heartrate_average_last_3_days": 74,
+            "blood_pressure_diastolic": 81,
+            "blood_pressure_sistolic": 99,
+            "age": 70
+        },
+        "target": {
+            "life_expectancy": 90
+        }
+    },
+    {
+        "name": "Kelly Pham",
+        "birthdate": "1967-12-06",
+        "features": {
+            "heartrate_average_last_3_days": 94,
+            "blood_pressure_diastolic": 80,
+            "blood_pressure_sistolic": 129,
+            "age": 57
+        },
+        "target": {
+            "life_expectancy": 95
+        }
+    },
+    {
+        "name": "Daniel Rivera",
+        "birthdate": "1964-04-14",
+        "features": {
+            "heartrate_average_last_3_days": 92,
+            "blood_pressure_diastolic": 84,
+            "blood_pressure_sistolic": 126,
+            "age": 61
+        },
+        "target": {
+            "life_expectancy": 88
+        }
+    },
+    {
+        "name": "Renee Orr",
+        "birthdate": "1937-01-29",
+        "features": {
+            "heartrate_average_last_3_days": 60,
+            "blood_pressure_diastolic": 87,
+            "blood_pressure_sistolic": 98,
+            "age": 88
+        },
+        "target": {
+            "life_expectancy": 80
+        }
+    },
+    {
+        "name": "Richard Lane",
+        "birthdate": "1971-11-05",
+        "features": {
+            "heartrate_average_last_3_days": 97,
+            "blood_pressure_diastolic": 68,
+            "blood_pressure_sistolic": 133,
+            "age": 53
+        },
+        "target": {
+            "life_expectancy": 97
+        }
+    },
+    {
+        "name": "Cathy Rivas",
+        "birthdate": "1988-01-29",
+        "features": {
+            "heartrate_average_last_3_days": 91,
+            "blood_pressure_diastolic": 60,
+            "blood_pressure_sistolic": 131,
+            "age": 37
+        },
+        "target": {
+            "life_expectancy": 88
+        }
+    },
+    {
+        "name": "Jennifer Spears",
+        "birthdate": "1996-10-06",
+        "features": {
+            "heartrate_average_last_3_days": 73,
+            "blood_pressure_diastolic": 78,
+            "blood_pressure_sistolic": 108,
+            "age": 28
+        },
+        "target": {
+            "life_expectancy": 74
+        }
+    },
+    {
+        "name": "Jeffrey Cook",
+        "birthdate": "1973-09-21",
+        "features": {
+            "heartrate_average_last_3_days": 66,
+            "blood_pressure_diastolic": 86,
+            "blood_pressure_sistolic": 131,
+            "age": 51
+        },
+        "target": {
+            "life_expectancy": 66
+        }
+    },
+    {
+        "name": "Yvonne Alvarez",
+        "birthdate": "1962-10-26",
+        "features": {
+            "heartrate_average_last_3_days": 71,
+            "blood_pressure_diastolic": 73,
+            "blood_pressure_sistolic": 101,
+            "age": 62
+        },
+        "target": {
+            "life_expectancy": 95
+        }
+    },
+    {
+        "name": "Amber Smith",
+        "birthdate": "1946-11-29",
+        "features": {
+            "heartrate_average_last_3_days": 94,
+            "blood_pressure_diastolic": 64,
+            "blood_pressure_sistolic": 119,
+            "age": 78
+        },
+        "target": {
+            "life_expectancy": 93
+        }
+    },
+    {
+        "name": "Travis Brown",
+        "birthdate": "1992-02-21",
+        "features": {
+            "heartrate_average_last_3_days": 72,
+            "blood_pressure_diastolic": 79,
+            "blood_pressure_sistolic": 113,
+            "age": 33
+        },
+        "target": {
+            "life_expectancy": 79
+        }
+    },
+    {
+        "name": "Jeffery Gray",
+        "birthdate": "1995-03-25",
+        "features": {
+            "heartrate_average_last_3_days": 66,
+            "blood_pressure_diastolic": 80,
+            "blood_pressure_sistolic": 113,
+            "age": 30
+        },
+        "target": {
+            "life_expectancy": 94
+        }
+    },
+    {
+        "name": "Wendy Woods",
+        "birthdate": "1975-04-05",
+        "features": {
+            "heartrate_average_last_3_days": 89,
+            "blood_pressure_diastolic": 78,
+            "blood_pressure_sistolic": 92,
+            "age": 50
+        },
+        "target": {
+            "life_expectancy": 97
+        }
+    },
+    {
+        "name": "Charlotte Lee",
+        "birthdate": "1952-03-20",
+        "features": {
+            "heartrate_average_last_3_days": 80,
+            "blood_pressure_diastolic": 87,
+            "blood_pressure_sistolic": 135,
+            "age": 73
+        },
+        "target": {
+            "life_expectancy": 95
+        }
+    },
+    {
+        "name": "Carrie Sanchez",
+        "birthdate": "1970-07-09",
+        "features": {
+            "heartrate_average_last_3_days": 73,
+            "blood_pressure_diastolic": 79,
+            "blood_pressure_sistolic": 113,
+            "age": 54
+        },
+        "target": {
+            "life_expectancy": 75
+        }
+    },
+    {
+        "name": "Mike Campos",
+        "birthdate": "1968-09-30",
+        "features": {
+            "heartrate_average_last_3_days": 60,
+            "blood_pressure_diastolic": 79,
+            "blood_pressure_sistolic": 106,
+            "age": 56
+        },
+        "target": {
+            "life_expectancy": 90
+        }
+    },
+    {
+        "name": "Amber Brown",
+        "birthdate": "1982-12-29",
+        "features": {
+            "heartrate_average_last_3_days": 65,
+            "blood_pressure_diastolic": 70,
+            "blood_pressure_sistolic": 90,
+            "age": 42
+        },
+        "target": {
+            "life_expectancy": 78
+        }
+    },
+    {
+        "name": "Gary Hale",
+        "birthdate": "1951-03-21",
+        "features": {
+            "heartrate_average_last_3_days": 77,
+            "blood_pressure_diastolic": 79,
+            "blood_pressure_sistolic": 127,
+            "age": 74
+        },
+        "target": {
+            "life_expectancy": 76
+        }
+    },
+    {
+        "name": "Amy Mendoza",
+        "birthdate": "1966-02-09",
+        "features": {
+            "heartrate_average_last_3_days": 82,
+            "blood_pressure_diastolic": 69,
+            "blood_pressure_sistolic": 94,
+            "age": 59
+        },
+        "target": {
+            "life_expectancy": 68
+        }
+    },
+    {
+        "name": "Melissa Fry",
+        "birthdate": "1998-09-30",
+        "features": {
+            "heartrate_average_last_3_days": 67,
+            "blood_pressure_diastolic": 85,
+            "blood_pressure_sistolic": 101,
+            "age": 26
+        },
+        "target": {
+            "life_expectancy": 65
+        }
+    },
+    {
+        "name": "Amanda Odonnell",
+        "birthdate": "1991-07-06",
+        "features": {
+            "heartrate_average_last_3_days": 97,
+            "blood_pressure_diastolic": 70,
+            "blood_pressure_sistolic": 136,
+            "age": 33
+        },
+        "target": {
+            "life_expectancy": 74
+        }
+    },
+    {
+        "name": "Cindy Bennett",
+        "birthdate": "1972-06-01",
+        "features": {
+            "heartrate_average_last_3_days": 75,
+            "blood_pressure_diastolic": 64,
+            "blood_pressure_sistolic": 123,
+            "age": 53
+        },
+        "target": {
+            "life_expectancy": 85
+        }
+    },
+    {
+        "name": "Ryan Sandoval",
+        "birthdate": "1978-08-09",
+        "features": {
+            "heartrate_average_last_3_days": 80,
+            "blood_pressure_diastolic": 82,
+            "blood_pressure_sistolic": 103,
+            "age": 46
+        },
+        "target": {
+            "life_expectancy": 72
+        }
+    },
+    {
+        "name": "Brittany Brown",
+        "birthdate": "1958-08-29",
+        "features": {
+            "heartrate_average_last_3_days": 88,
+            "blood_pressure_diastolic": 79,
+            "blood_pressure_sistolic": 97,
+            "age": 66
+        },
+        "target": {
+            "life_expectancy": 70
+        }
+    },
+    {
+        "name": "Christina Richmond",
+        "birthdate": "1962-10-18",
+        "features": {
+            "heartrate_average_last_3_days": 94,
+            "blood_pressure_diastolic": 72,
+            "blood_pressure_sistolic": 109,
+            "age": 62
+        },
+        "target": {
+            "life_expectancy": 66
+        }
+    },
+    {
+        "name": "Jason Oliver",
+        "birthdate": "1936-07-07",
+        "features": {
+            "heartrate_average_last_3_days": 81,
+            "blood_pressure_diastolic": 64,
+            "blood_pressure_sistolic": 132,
+            "age": 88
+        },
+        "target": {
+            "life_expectancy": 76
+        }
+    },
+    {
+        "name": "Kelly Sparks",
+        "birthdate": "1967-05-11",
+        "features": {
+            "heartrate_average_last_3_days": 62,
+            "blood_pressure_diastolic": 78,
+            "blood_pressure_sistolic": 103,
+            "age": 58
+        },
+        "target": {
+            "life_expectancy": 94
+        }
+    },
+    {
+        "name": "Raymond Lewis",
+        "birthdate": "1979-05-16",
+        "features": {
+            "heartrate_average_last_3_days": 68,
+            "blood_pressure_diastolic": 60,
+            "blood_pressure_sistolic": 134,
+            "age": 46
+        },
+        "target": {
+            "life_expectancy": 78
+        }
+    },
+    {
+        "name": "Michael Guzman",
+        "birthdate": "1998-01-11",
+        "features": {
+            "heartrate_average_last_3_days": 75,
+            "blood_pressure_diastolic": 69,
+            "blood_pressure_sistolic": 108,
+            "age": 27
+        },
+        "target": {
+            "life_expectancy": 70
+        }
+    },
+    {
+        "name": "Patrick Moore",
+        "birthdate": "1968-09-03",
+        "features": {
+            "heartrate_average_last_3_days": 79,
+            "blood_pressure_diastolic": 85,
+            "blood_pressure_sistolic": 105,
+            "age": 56
+        },
+        "target": {
+            "life_expectancy": 69
+        }
+    },
+    {
+        "name": "Scott Patel MD",
+        "birthdate": "1962-04-02",
+        "features": {
+            "heartrate_average_last_3_days": 60,
+            "blood_pressure_diastolic": 77,
+            "blood_pressure_sistolic": 111,
+            "age": 63
+        },
+        "target": {
+            "life_expectancy": 89
+        }
+    },
+    {
+        "name": "Joshua Hoffman",
+        "birthdate": "1948-07-21",
+        "features": {
+            "heartrate_average_last_3_days": 61,
+            "blood_pressure_diastolic": 88,
+            "blood_pressure_sistolic": 106,
+            "age": 76
+        },
+        "target": {
+            "life_expectancy": 65
+        }
+    },
+    {
+        "name": "Anna Bentley",
+        "birthdate": "1941-12-28",
+        "features": {
+            "heartrate_average_last_3_days": 60,
+            "blood_pressure_diastolic": 67,
+            "blood_pressure_sistolic": 111,
+            "age": 83
+        },
+        "target": {
+            "life_expectancy": 78
+        }
+    },
+    {
+        "name": "Michelle Green",
+        "birthdate": "1938-01-13",
+        "features": {
+            "heartrate_average_last_3_days": 88,
+            "blood_pressure_diastolic": 69,
+            "blood_pressure_sistolic": 106,
+            "age": 87
+        },
+        "target": {
+            "life_expectancy": 88
+        }
+    },
+    {
+        "name": "Susan Perry",
+        "birthdate": "1972-02-24",
+        "features": {
+            "heartrate_average_last_3_days": 97,
+            "blood_pressure_diastolic": 84,
+            "blood_pressure_sistolic": 119,
+            "age": 53
+        },
+        "target": {
+            "life_expectancy": 73
+        }
+    },
+    {
+        "name": "James Watson",
+        "birthdate": "1999-02-13",
+        "features": {
+            "heartrate_average_last_3_days": 83,
+            "blood_pressure_diastolic": 86,
+            "blood_pressure_sistolic": 139,
+            "age": 26
+        },
+        "target": {
+            "life_expectancy": 66
+        }
+    },
+    {
+        "name": "Nicholas Davis",
+        "birthdate": "1947-03-22",
+        "features": {
+            "heartrate_average_last_3_days": 68,
+            "blood_pressure_diastolic": 74,
+            "blood_pressure_sistolic": 104,
+            "age": 78
+        },
+        "target": {
+            "life_expectancy": 99
+        }
+    },
+    {
+        "name": "Matthew Sullivan",
+        "birthdate": "1956-01-22",
+        "features": {
+            "heartrate_average_last_3_days": 67,
+            "blood_pressure_diastolic": 82,
+            "blood_pressure_sistolic": 115,
+            "age": 69
+        },
+        "target": {
+            "life_expectancy": 76
+        }
+    },
+    {
+        "name": "Sophia Brown",
+        "birthdate": "1935-11-25",
+        "features": {
+            "heartrate_average_last_3_days": 78,
+            "blood_pressure_diastolic": 80,
+            "blood_pressure_sistolic": 100,
+            "age": 89
+        },
+        "target": {
+            "life_expectancy": 95
+        }
+    },
+    {
+        "name": "Dawn Garcia",
+        "birthdate": "1990-02-22",
+        "features": {
+            "heartrate_average_last_3_days": 93,
+            "blood_pressure_diastolic": 71,
+            "blood_pressure_sistolic": 97,
+            "age": 35
+        },
+        "target": {
+            "life_expectancy": 97
+        }
+    },
+    {
+        "name": "Kendra Martinez MD",
+        "birthdate": "1946-03-05",
+        "features": {
+            "heartrate_average_last_3_days": 78,
+            "blood_pressure_diastolic": 75,
+            "blood_pressure_sistolic": 103,
+            "age": 79
+        },
+        "target": {
+            "life_expectancy": 77
+        }
+    },
+    {
+        "name": "John Shaw",
+        "birthdate": "1996-11-23",
+        "features": {
+            "heartrate_average_last_3_days": 69,
+            "blood_pressure_diastolic": 88,
+            "blood_pressure_sistolic": 96,
+            "age": 28
+        },
+        "target": {
+            "life_expectancy": 88
+        }
+    },
+    {
+        "name": "Matthew Floyd",
+        "birthdate": "1978-10-08",
+        "features": {
+            "heartrate_average_last_3_days": 72,
+            "blood_pressure_diastolic": 88,
+            "blood_pressure_sistolic": 121,
+            "age": 46
+        },
+        "target": {
+            "life_expectancy": 89
+        }
+    },
+    {
+        "name": "Alyssa Greene",
+        "birthdate": "1940-11-11",
+        "features": {
+            "heartrate_average_last_3_days": 82,
+            "blood_pressure_diastolic": 73,
+            "blood_pressure_sistolic": 138,
+            "age": 84
+        },
+        "target": {
+            "life_expectancy": 65
+        }
+    },
+    {
+        "name": "Mr. Tracy Petty Jr.",
+        "birthdate": "1992-04-17",
+        "features": {
+            "heartrate_average_last_3_days": 99,
+            "blood_pressure_diastolic": 81,
+            "blood_pressure_sistolic": 136,
+            "age": 33
+        },
+        "target": {
+            "life_expectancy": 88
+        }
+    },
+    {
+        "name": "Crystal Mason",
+        "birthdate": "2005-12-14",
+        "features": {
+            "heartrate_average_last_3_days": 71,
+            "blood_pressure_diastolic": 81,
+            "blood_pressure_sistolic": 93,
+            "age": 19
+        },
+        "target": {
+            "life_expectancy": 69
+        }
+    },
+    {
+        "name": "Jerry Rice",
+        "birthdate": "1937-06-01",
+        "features": {
+            "heartrate_average_last_3_days": 76,
+            "blood_pressure_diastolic": 80,
+            "blood_pressure_sistolic": 129,
+            "age": 88
+        },
+        "target": {
+            "life_expectancy": 74
+        }
+    },
+    {
+        "name": "Jeanne Larson",
+        "birthdate": "1935-10-01",
+        "features": {
+            "heartrate_average_last_3_days": 78,
+            "blood_pressure_diastolic": 83,
+            "blood_pressure_sistolic": 106,
+            "age": 89
+        },
+        "target": {
+            "life_expectancy": 79
+        }
+    },
+    {
+        "name": "Frank Rangel",
+        "birthdate": "1999-05-21",
+        "features": {
+            "heartrate_average_last_3_days": 97,
+            "blood_pressure_diastolic": 82,
+            "blood_pressure_sistolic": 116,
+            "age": 26
+        },
+        "target": {
+            "life_expectancy": 96
+        }
+    },
+    {
+        "name": "Valerie Bond",
+        "birthdate": "1964-08-30",
+        "features": {
+            "heartrate_average_last_3_days": 91,
+            "blood_pressure_diastolic": 69,
+            "blood_pressure_sistolic": 102,
+            "age": 60
+        },
+        "target": {
+            "life_expectancy": 85
+        }
+    },
+    {
+        "name": "Betty Moody",
+        "birthdate": "1978-05-15",
+        "features": {
+            "heartrate_average_last_3_days": 96,
+            "blood_pressure_diastolic": 61,
+            "blood_pressure_sistolic": 105,
+            "age": 47
+        },
+        "target": {
+            "life_expectancy": 73
+        }
+    },
+    {
+        "name": "Tara Lewis",
+        "birthdate": "1966-10-10",
+        "features": {
+            "heartrate_average_last_3_days": 95,
+            "blood_pressure_diastolic": 83,
+            "blood_pressure_sistolic": 121,
+            "age": 58
+        },
+        "target": {
+            "life_expectancy": 94
+        }
+    },
+    {
+        "name": "Tiffany Underwood",
+        "birthdate": "1997-06-09",
+        "features": {
+            "heartrate_average_last_3_days": 64,
+            "blood_pressure_diastolic": 61,
+            "blood_pressure_sistolic": 126,
+            "age": 28
+        },
+        "target": {
+            "life_expectancy": 71
+        }
+    },
+    {
+        "name": "Daniel Collins",
+        "birthdate": "1966-06-21",
+        "features": {
+            "heartrate_average_last_3_days": 67,
+            "blood_pressure_diastolic": 84,
+            "blood_pressure_sistolic": 128,
+            "age": 59
+        },
+        "target": {
+            "life_expectancy": 73
+        }
+    },
+    {
+        "name": "Kristin Rodriguez",
+        "birthdate": "1994-12-04",
+        "features": {
+            "heartrate_average_last_3_days": 72,
+            "blood_pressure_diastolic": 83,
+            "blood_pressure_sistolic": 104,
+            "age": 30
+        },
+        "target": {
+            "life_expectancy": 96
+        }
+    },
+    {
+        "name": "Melanie Delgado",
+        "birthdate": "1969-09-23",
+        "features": {
+            "heartrate_average_last_3_days": 80,
+            "blood_pressure_diastolic": 67,
+            "blood_pressure_sistolic": 139,
+            "age": 55
+        },
+        "target": {
+            "life_expectancy": 80
+        }
+    }
+]
