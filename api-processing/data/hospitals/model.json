@@ -1,0 +1,15 @@
+{
+  "aggregatedWeight": {
+    "weights": [
+      0.2659698027115267,
+      0.2673103961059223,
+      0.2905715687906141,
+      0.10545723268762594
+    ],
+    "bias": 0.0035572302208922582,
+    "numberOfSamples": 10
+  },
+  "numberOfHospitals": 2,
+  "totalSamples": 10,
+  "timestamp": "2025-07-05T19:21:27.537Z"
+}

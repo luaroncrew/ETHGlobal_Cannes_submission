@@ -2,6 +2,7 @@ const express = require('express');
 const dotenv = require('dotenv');
 const computeController = require('./controllers/compute_models');
 const computeAggregateController = require('./controllers/compute_aggregate');
+const predictResultController = require('./controllers/predict_result');
 
 dotenv.config();
 const app = express();
@@ -29,6 +30,7 @@ app.use((req, res, next) => {
 
 app.post('/compute', (req, res) => computeController.handleRequest(req, res));
 app.post('/compute-aggregate', (req, res) => computeAggregateController.handleRequest(req, res));
+app.post('/predict-result', (req, res) => predictResultController.handleRequest(req, res));
 
 app.listen(PORT, () => {
   console.log(`Server started on http://localhost:${PORT}`);

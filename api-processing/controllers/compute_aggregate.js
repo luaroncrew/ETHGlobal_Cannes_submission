@@ -2,7 +2,7 @@ const storageService = require('../services/storage');
 
 exports.handleRequest = async (req, res) => {
   try {
-    // Récupérer tous les fichiers weights
+    // Get all weights
     const allWeights = await storageService.getAllWeights();
     
     if (allWeights.length === 0) {
@@ -11,10 +11,10 @@ exports.handleRequest = async (req, res) => {
       });
     }
     
-    // Calculer la moyenne pondérée
+    // Calculate the weighted average
     const aggregatedWeight = computeWeightedAverage(allWeights);
     
-    // Créer la réponse
+    // Create the response
     const response = {
       aggregatedWeight,
       numberOfHospitals: allWeights.length,
@@ -22,12 +22,15 @@ exports.handleRequest = async (req, res) => {
       timestamp: new Date().toISOString()
     };
     
+    // Store the model before returning the response
+    await storageService.storeModel(response);
+    
     res.json(response);
     
   } catch (err) {
     console.error('Error: ', err);
     res.status(500).json({ 
-      error: 'Erreur lors du calcul de l\'agrégation', 
+      error: 'Error when calculating the aggregation', 
       message: err.message 
     });
   }
@@ -38,26 +41,26 @@ function computeWeightedAverage(weightsData) {
   let weightedWeights = null;
   let weightedBias = 0;
   
-  // Calculer la somme totale des échantillons
+  // Calculate the total sum of samples
   for (const data of weightsData) {
     totalSamples += data.weight.numberOfSamples;
   }
   
-  // Calculer les moyennes pondérées
+  // Calculate the weighted averages
   for (const data of weightsData) {
     const weight = data.weight.numberOfSamples / totalSamples;
     
-    // Initialiser le tableau des poids si pas encore fait
+    // Initialize the weights array if not already done
     if (weightedWeights === null) {
       weightedWeights = new Array(data.weight.weights.length).fill(0);
     }
     
-    // Ajouter les poids pondérés
+    // Add the weighted weights
     for (let i = 0; i < data.weight.weights.length; i++) {
       weightedWeights[i] += data.weight.weights[i] * weight;
     }
     
-    // Ajouter le bias pondéré
+    // Add the weighted bias
     weightedBias += data.weight.bias * weight;
   }
   
