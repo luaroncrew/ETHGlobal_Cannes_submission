@@ -10,16 +10,22 @@ class RegressionService {
 
   /**
    * Calculate the regression by implementing all TODOs
+   * @param {string} hospitalUUID - UUID unique de l'hôpital
+   * @param {string} hospitalName - Nom de l'hôpital
    * @returns {Object} - Regression results with weights
    */
-  async calcRegression() {
+  async calcRegression(hospitalUUID, hospitalName) {
     try {      
+      console.log(`Calcul de régression pour l'hôpital: ${hospitalName} (UUID: ${hospitalUUID})`);
       console.log('Get data on rollus');
-      const rawData = await storageService.getData();
+      const rawData = await storageService.getData(hospitalUUID);
       
       if (!rawData || !Array.isArray(rawData)) {
         throw new Error('The format of data is not valid');
       }
+
+      // TODO: Filtrer les données par hospitalUUID si nécessaire
+      // const hospitalData = rawData.filter(item => item.hospitalUUID === hospitalUUID);
 
       console.log('Verify proofs...');
       const proofResults = await proofVerifier.verifyProofs(rawData);
@@ -43,6 +49,9 @@ class RegressionService {
       // Train the model (implem linear regression)
       console.log('Training the linear regression model...');
       const trainingResults = this.model.train(validData);
+
+      // Store the weights
+      await storageService.storeWeight(hospitalUUID, {weights: trainingResults.weights, bias: trainingResults.bias, numberOfSamples: validData.length});
       
       this.isTrained = true;
 
@@ -50,6 +59,10 @@ class RegressionService {
       const result = {
         success: true,
         message: 'Regression calculated successfully',
+        hospital: {
+          uuid: hospitalUUID,
+          name: hospitalName
+        },
         model: {
           weights: trainingResults.weights,
           bias: trainingResults.bias
