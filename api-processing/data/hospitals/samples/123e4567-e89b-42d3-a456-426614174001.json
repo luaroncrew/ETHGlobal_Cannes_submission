@@ -1,92 +1,32 @@
 [
     {
-        "uuid": "a2606629-6193-4510-85b0-05f1aeb07a03",
-        "firstName": "Richard",
-        "lastName": "Taylor",
-        "birthdate": "1990-02-24",
+        "uuid": "0x9004f82a24bf48b5b3c5040762efc154",
+        "firstName": "Lisa",
+        "lastName": "Jackson",
+        "birthdate": "1959-12-12",
         "features": {
-            "heartrate_average_last_3_days": 83,
-            "blood_pressure_diastolic": 86,
-            "blood_pressure_sistolic": 116,
-            "age": 35
+            "heartrate_average_last_3_days": 76,
+            "blood_pressure_diastolic": 64,
+            "blood_pressure_sistolic": 100,
+            "age": 64
         },
         "target": {
-            "life_expectancy": 92
+            "life_expectancy": 26
         }
     },
     {
-        "uuid": "f9faa29d-02fc-4756-a2b6-1410163169b3",
-        "firstName": "Wanda",
-        "lastName": "Miller",
-        "birthdate": "1970-10-14",
+        "uuid": "0x0588b747e7e54da4a07ad81c3478f222",
+        "firstName": "Michael", 
+        "lastName": "Thomas",
+        "birthdate": "1965-12-21",
         "features": {
-            "heartrate_average_last_3_days": 78,
-            "blood_pressure_diastolic": 61,
-            "blood_pressure_sistolic": 113,
-            "age": 54
+            "heartrate_average_last_3_days": 66,
+            "blood_pressure_diastolic": 89,
+            "blood_pressure_sistolic": 134,
+            "age": 52
         },
         "target": {
-            "life_expectancy": 70
-        }
-    },
-    {
-        "uuid": "9848be44-c6c0-413a-bff1-54f9d90a5245",
-        "firstName": "Jennifer",
-        "lastName": "Donaldson",
-        "birthdate": "1999-01-11",
-        "features": {
-            "heartrate_average_last_3_days": 79,
-            "blood_pressure_diastolic": 68,
-            "blood_pressure_sistolic": 107,
-            "age": 26
-        },
-        "target": {
-            "life_expectancy": 81
-        }
-    },
-    {
-        "uuid": "d4b72282-86f3-4778-b433-0d97a27d8586",
-        "firstName": "Brenda",
-        "lastName": "Hernandez",
-        "birthdate": "1970-08-07",
-        "features": {
-            "heartrate_average_last_3_days": 77,
-            "blood_pressure_diastolic": 72,
-            "blood_pressure_sistolic": 92,
-            "age": 54
-        },
-        "target": {
-            "life_expectancy": 98
-        }
-    },
-    {
-        "uuid": "e1e6a550-7032-4dee-bfee-a530a2ce8897",
-        "firstName": "Robert",
-        "lastName": "Harris",
-        "birthdate": "1942-05-28",
-        "features": {
-            "heartrate_average_last_3_days": 65,
-            "blood_pressure_diastolic": 85,
-            "blood_pressure_sistolic": 130,
-            "age": 83
-        },
-        "target": {
-            "life_expectancy": 65
-        }
-    },    
-    {
-        "uuid": "32a67f38-32e1-4a4c-bd60-3a5d89823a10",
-        "firstName": "Brandon",
-        "lastName": "Lopez",
-        "birthdate": "1967-03-06",
-        "features": {
-            "heartrate_average_last_3_days": 89,
-            "blood_pressure_diastolic": 77,
-            "blood_pressure_sistolic": 133,
-            "age": 58
-        },
-        "target": {
-            "life_expectancy": 95
+            "life_expectancy": 28
         }
     }
 ]
