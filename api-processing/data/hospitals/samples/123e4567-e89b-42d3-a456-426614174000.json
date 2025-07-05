@@ -6,7 +6,7 @@
         "birthdate": "1974-08-13",
         "features": {
             "heartrate_average_last_3_days": 98,
-            "blood_pressure_diasto_lic": 78,
+            "blood_pressure_diastolic": 78,
             "blood_pressure_sistolic": 128,
             "age": 50
         },
