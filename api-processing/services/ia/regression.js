@@ -9,8 +9,8 @@ class RegressionService {
   }
 
   /**
-   * Calcule la régression en implémentant tous les TODO
-   * @returns {Object} - Résultats de la régression avec les poids
+   * Calculate the regression by implementing all TODOs
+   * @returns {Object} - Regression results with weights
    */
   async calcRegression() {
     try {      
@@ -46,7 +46,7 @@ class RegressionService {
       
       this.isTrained = true;
 
-      // Retourner les poids
+      // Return the weights
       const result = {
         success: true,
         message: 'Regression calculated successfully',

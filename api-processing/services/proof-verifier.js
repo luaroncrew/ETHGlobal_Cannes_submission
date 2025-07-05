@@ -4,9 +4,9 @@ class ProofVerifier {
   }
 
   /**
-   * Vérifie les preuves pour chaque ligne dans un tableau de données
-   * @param {Array} data - Tableau de données avec des preuves
-   * @returns {Object} - Résultat de la vérification
+   * Verify proofs for each line in a data table
+   * @param {Array} data - Data table with proofs
+   * @returns {Object} - Verification result
    */
   async verifyProofs(data) {
     const results = {

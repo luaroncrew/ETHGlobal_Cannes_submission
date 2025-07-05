@@ -7,15 +7,15 @@ class LinearRegression {
   }
 
   /**
-   * Normalise les données pour améliorer la convergence
-   * @param {Array} data - Données à normaliser
-   * @returns {Object} - Données normalisées et paramètres de normalisation
+   * Normalize data to improve convergence
+   * @param {Array} data - Data to normalize
+   * @returns {Object} - Normalized data and normalization parameters
    */
   normalizeData(data) {
     const features = data.map(row => row.features || row.x || []);
     const targets = data.map(row => row.target || row.y);
     
-    // Calculer les moyennes et écarts-types pour chaque feature
+    // Calculate means and standard deviations for each feature
     const numFeatures = features[0].length;
     const means = [];
     const stds = [];
@@ -30,7 +30,7 @@ class LinearRegression {
       stds.push(std);
     }
     
-    // Normaliser les features
+    // Normalize features
     const normalizedFeatures = features.map(row => 
       row.map((val, i) => (val - means[i]) / (stds[i] || 1))
     );
@@ -43,13 +43,13 @@ class LinearRegression {
   }
 
   /**
-   * Prédit la valeur pour des features données
-   * @param {Array} features - Features d'entrée
-   * @returns {number} - Prédiction
+   * Predict the value for given features
+   * @param {Array} features - Input features
+   * @returns {number} - Prediction
    */
   predict(features) {
     if (!this.weights) {
-      throw new Error('Le modèle doit être entraîné avant de faire des prédictions');
+      throw new Error('The model must be trained before making predictions');
     }
     
     let prediction = this.bias;
@@ -61,10 +61,10 @@ class LinearRegression {
   }
 
   /**
-   * Calcule l'erreur quadratique moyenne
-   * @param {Array} features - Features d'entrée
-   * @param {Array} targets - Valeurs cibles
-   * @returns {number} - Erreur quadratique moyenne
+   * Calculate the mean squared error
+   * @param {Array} features - Input features
+   * @param {Array} targets - Target values
+   * @returns {number} - Mean squared error
    */
   calculateMSE(features, targets) {
     let mse = 0;
@@ -82,12 +82,12 @@ class LinearRegression {
    */
   train(data) {
     if (!Array.isArray(data) || data.length === 0) {
-      throw new Error('Les données d\'entraînement doivent être un tableau non vide');
+      throw new Error('The training data must be a non-empty array');
     }
 
     // Vérifier le format des données
     if (!data[0].features || !data[0].target || typeof data[0].features !== 'object' || typeof data[0].target !== 'object') {
-      throw new Error('Les données doivent être au format [{features: {...}, target: {...}}, ...]');
+      throw new Error('The data must be in the format [{features: {...}, target: {...}}, ...]');
     }    
 
     // Extraire les features et targets des objets
@@ -103,15 +103,15 @@ class LinearRegression {
     const numFeatures = features[0].length;
     const numSamples = features.length;
     
-    // Initialiser les poids et le biais
+    // Initialize weights and bias
     this.weights = new Array(numFeatures).fill(0);
     this.bias = 0;
     
     const history = [];
     
-    // Descente de gradient
+    // Gradient descent
     for (let epoch = 0; epoch < this.epochs; epoch++) {
-      // Calculer les gradients
+      // Calculate gradients
       const weightGradients = new Array(numFeatures).fill(0);
       let biasGradient = 0;
       
@@ -119,22 +119,22 @@ class LinearRegression {
         const prediction = this.predict(features[i]);
         const error = prediction - targets[i];
         
-        // Gradient du biais
+        // Bias gradient
         biasGradient += error;
         
-        // Gradients des poids
+        // Weight gradients
         for (let j = 0; j < numFeatures; j++) {
           weightGradients[j] += error * features[i][j];
         }
       }
       
-      // Mettre à jour les paramètres
+      // Update parameters
       this.bias -= (this.learningRate * biasGradient) / numSamples;
       for (let j = 0; j < numFeatures; j++) {
         this.weights[j] -= (this.learningRate * weightGradients[j]) / numSamples;
       }
       
-      // Calculer l'erreur pour l'historique
+      // Calculate error for history
       if (epoch % 100 === 0) {
         const mse = this.calculateMSE(features, targets);
         history.push({ epoch, mse });
@@ -150,13 +150,13 @@ class LinearRegression {
   }
 
   /**
-   * Faire des prédictions sur de nouvelles données
-   * @param {Array} newData - Nouvelles données au format [{features: {heartrate_average_last_3_days: x1, blood_pressure_diastolic: x2, blood_pressure_sistolic: x3, age: x4}}, ...]
-   * @returns {Array} - Prédictions
+   * Make predictions on new data
+   * @param {Array} newData - New data in the format [{features: {heartrate_average_last_3_days: x1, blood_pressure_diastolic: x2, blood_pressure_sistolic: x3, age: x4}}, ...]
+   * @returns {Array} - Predictions
    */
   predictBatch(newData) {
     if (!this.weights) {
-      throw new Error('Le modèle doit être entraîné avant de faire des prédictions');
+      throw new Error('The model must be trained before making predictions');
     }
     
     return newData.map(row => {
@@ -171,13 +171,13 @@ class LinearRegression {
   }
 
   /**
-   * Évalue le modèle
-   * @param {Array} testData - Données de test au format [{features: {heartrate_average_last_3_days: x1, blood_pressure_diastolic: x2, blood_pressure_sistolic: x3, age: x4}, target: {life_expectancy: y}}, ...]
-   * @returns {Object} - Métriques de performance
+   * Evaluate the model
+   * @param {Array} testData - Test data in the format [{features: {heartrate_average_last_3_days: x1, blood_pressure_diastolic: x2, blood_pressure_sistolic: x3, age: x4}, target: {life_expectancy: y}}, ...]
+   * @returns {Object} - Performance metrics
    */
   evaluate(testData) {
     if (!this.weights) {
-      throw new Error('Le modèle doit être entraîné avant l\'évaluation');
+      throw new Error('The model must be trained before evaluation');
     }
 
     const features = testData.map(row => [
@@ -190,17 +190,17 @@ class LinearRegression {
     
     const predictions = features.map(f => this.predict(f));
     
-    // Calculer le R² (coefficient de détermination)
+    // Calculate the R² (coefficient of determination)
     const meanTarget = targets.reduce((sum, val) => sum + val, 0) / targets.length;
     const ssRes = predictions.reduce((sum, pred, i) => sum + Math.pow(pred - targets[i], 2), 0);
     const ssTot = targets.reduce((sum, target) => sum + Math.pow(target - meanTarget, 2), 0);
     const rSquared = 1 - (ssRes / ssTot);
     
-    // Calculer l'erreur quadratique moyenne
+    // Calculate the mean squared error
     const mse = ssRes / targets.length;
     const rmse = Math.sqrt(mse);
     
-    // Calculer l'erreur absolue moyenne
+    // Calculate the mean absolute error
     const mae = predictions.reduce((sum, pred, i) => sum + Math.abs(pred - targets[i]), 0) / targets.length;
     
     return {
