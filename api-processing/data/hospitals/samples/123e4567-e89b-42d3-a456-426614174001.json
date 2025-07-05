@@ -1,7 +1,8 @@
 [
     {
         "uuid": "a2606629-6193-4510-85b0-05f1aeb07a03",
-        "name": "Richard Taylor",
+        "firstName": "Richard",
+        "lastName": "Taylor",
         "birthdate": "1990-02-24",
         "features": {
             "heartrate_average_last_3_days": 83,
@@ -15,7 +16,8 @@
     },
     {
         "uuid": "f9faa29d-02fc-4756-a2b6-1410163169b3",
-        "name": "Wanda Miller",
+        "firstName": "Wanda",
+        "lastName": "Miller",
         "birthdate": "1970-10-14",
         "features": {
             "heartrate_average_last_3_days": 78,
@@ -29,7 +31,8 @@
     },
     {
         "uuid": "9848be44-c6c0-413a-bff1-54f9d90a5245",
-        "name": "Jennifer Donaldson",
+        "firstName": "Jennifer",
+        "lastName": "Donaldson",
         "birthdate": "1999-01-11",
         "features": {
             "heartrate_average_last_3_days": 79,
@@ -43,7 +46,8 @@
     },
     {
         "uuid": "d4b72282-86f3-4778-b433-0d97a27d8586",
-        "name": "Brenda Hernandez",
+        "firstName": "Brenda",
+        "lastName": "Hernandez",
         "birthdate": "1970-08-07",
         "features": {
             "heartrate_average_last_3_days": 77,
@@ -57,7 +61,8 @@
     },
     {
         "uuid": "e1e6a550-7032-4dee-bfee-a530a2ce8897",
-        "name": "Robert Harris",
+        "firstName": "Robert",
+        "lastName": "Harris",
         "birthdate": "1942-05-28",
         "features": {
             "heartrate_average_last_3_days": 65,
@@ -71,7 +76,8 @@
     },    
     {
         "uuid": "32a67f38-32e1-4a4c-bd60-3a5d89823a10",
-        "name": "Brandon Lopez",
+        "firstName": "Brandon",
+        "lastName": "Lopez",
         "birthdate": "1967-03-06",
         "features": {
             "heartrate_average_last_3_days": 89,

@@ -1,11 +1,12 @@
 [
     {
         "uuid": "441cc61d-8985-4bd3-8d39-9cee4fca3b86",
-        "name": "Kylie Morgan",
+        "firstName": "Kylie",
+        "lastName": "Morgan",
         "birthdate": "1974-08-13",
         "features": {
             "heartrate_average_last_3_days": 98,
-            "blood_pressure_diastolic": 78,
+            "blood_pressure_diasto_lic": 78,
             "blood_pressure_sistolic": 128,
             "age": 50
         },
@@ -15,7 +16,8 @@
     },
     {
         "uuid": "3ac29270-d886-471b-8eaf-10bb05fb8e22",
-        "name": "Stacey Brown",
+        "firstName": "Stacey",
+        "lastName": "Brown",
         "birthdate": "1942-04-13",
         "features": {
             "heartrate_average_last_3_days": 73,
@@ -29,7 +31,8 @@
     },
     {
         "uuid": "04528b75-41c4-480f-8d6f-930ef52fa185",
-        "name": "Brian Butler",
+        "firstName": "Brian",
+        "lastName": "Butler",
         "birthdate": "1969-05-26",
         "features": {
             "heartrate_average_last_3_days": 66,
@@ -43,7 +46,8 @@
     },
     {
         "uuid": "caddc5d9-f8ba-441c-b94b-31cfa657f783",
-        "name": "Dr. Lindsey Johnson",
+        "firstName": "Dr. Lindsey",
+        "lastName": "Johnson",
         "birthdate": "1936-11-27",
         "features": {
             "heartrate_average_last_3_days": 92,
