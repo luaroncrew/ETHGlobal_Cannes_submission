@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "c09fb39a-35c3-4027-bfb4-05f77fdc2157",
+		"name": "ETH Cannes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31406643"
+	},
+	"item": [
+		{
+			"name": "Compute model",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"hospitalUUID\": \"123e4567-e89b-42d3-a456-426614174000\",\r\n  \"hospitalName\": \"Hôpital Cannes\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{HOST_OASIS}}compute",
+					"host": [
+						"{{HOST_OASIS}}compute"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Compute aggregate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"hospitalUUID\": \"123e4567-e89b-42d3-a456-426614174001\",\r\n  \"hospitalName\": \"Hôpital Cannes\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{HOST_OASIS}}compute-aggregate",
+					"host": [
+						"{{HOST_OASIS}}compute-aggregate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Predict",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"heartrate_average_last_3_days\": 80,\r\n  \"blood_pressure_diastolic\": 80,\r\n  \"blood_pressure_sistolic\": 120,\r\n  \"age\": 55\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{HOST_OASIS}}predict-result",
+					"host": [
+						"{{HOST_OASIS}}predict-result"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
