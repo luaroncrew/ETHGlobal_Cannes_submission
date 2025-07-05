@@ -11,12 +11,11 @@ class RegressionService {
   /**
    * Calculate the regression by implementing all TODOs
    * @param {string} hospitalUUID - UUID unique de l'hôpital
-   * @param {string} hospitalName - Nom de l'hôpital
    * @returns {Object} - Regression results with weights
    */
-  async calcRegression(hospitalUUID, hospitalName) {
+  async calcRegression(hospitalUUID) {
     try {      
-      console.log(`Calcul de régression pour l'hôpital: ${hospitalName} (UUID: ${hospitalUUID})`);
+      console.log(`Regression calculation for hospital: UUID: ${hospitalUUID}`);
       console.log('Get data on rollus');
       const rawData = await storageService.getData(hospitalUUID);
       
@@ -60,8 +59,7 @@ class RegressionService {
         success: true,
         message: 'Regression calculated successfully',
         hospital: {
-          uuid: hospitalUUID,
-          name: hospitalName
+          uuid: hospitalUUID
         },
         model: {
           weights: trainingResults.weights,

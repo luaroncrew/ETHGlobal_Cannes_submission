@@ -20,27 +20,133 @@ function isValidUUID(uuid) {
 }
 
 /**
- * Validate the hospital name
- * @param {string} name - The name to validate
- * @returns {boolean} - true if the name is valid
+ * Validate hex UUID format (starting with 0x)
+ * @param {string} uuid - The hex UUID to validate
+ * @returns {boolean} - true if the format is valid
  */
-function isValidHospitalName(name) {
-  if (!name || typeof name !== 'string') {
+function isValidHexUUID(uuid) {
+  if (!uuid || typeof uuid !== 'string') {
     return false;
   }
   
-  // Remove spaces at the beginning and end then check if it's not empty
-  const trimmedName = name.trim();
+  // Regex for hex UUID: 0x followed by 32 hex characters
+  const hexUuidRegex = /^0x[0-9a-f]{32}$/i;
+  return hexUuidRegex.test(uuid);
+}
+
+/**
+ * Validate a single patient object
+ * @param {Object} patient - The patient object to validate
+ * @returns {Object} - Validation result with possible errors
+ */
+function validatePatient(patient) {
+  const errors = [];
   
-  // The name must contain at least 2 characters and maximum 100
-  return trimmedName.length >= 2 && trimmedName.length <= 100;
+  if (!patient || typeof patient !== 'object') {
+    errors.push('The patient must be a valid object');
+    return { isValid: false, errors };
+  }
+
+  // Validate UUID
+  if (!patient.uuid) {
+    errors.push('uuid is required for the patient');
+  } else if (!isValidHexUUID(patient.uuid)) {
+    errors.push('uuid must be a valid hexadecimal UUID (format: 0x + 32 hexadecimal characters)');
+  }
+
+  // Validate required fields
+  const requiredFields = ['firstName', 'lastName', 'birthdate'];
+  for (const field of requiredFields) {
+    if (!patient[field] || typeof patient[field] !== 'string') {
+      errors.push(`${field} is required and must be a string`);
+    }
+  }
+
+  // Validate birthdate format (YYYY-MM-DD)
+  if (patient.birthdate && !/^\d{4}-\d{2}-\d{2}$/.test(patient.birthdate)) {
+    errors.push('birthdate must be in the format YYYY-MM-DD');
+  }
+
+  // Validate features object
+  if (!patient.features || typeof patient.features !== 'object') {
+    errors.push('features is required and must be an object');
+  } else {
+    const requiredFeatures = [
+      'heartrate_average_last_3_days',
+      'blood_pressure_diastolic',
+      'blood_pressure_sistolic',
+      'age'
+    ];
+    
+    for (const feature of requiredFeatures) {
+      if (typeof patient.features[feature] !== 'number') {
+        errors.push(`features.${feature} is required and must be a number`);
+      }
+    }
+  }
+
+  // Validate target object
+  if (!patient.target || typeof patient.target !== 'object') {
+    errors.push('target is required and must be an object');
+  } else {
+    if (typeof patient.target.life_expectancy !== 'number') {
+      errors.push('target.life_expectancy is required and must be a number');
+    }
+  }
+
+  return {
+    isValid: errors.length === 0,
+    errors: errors
+  };
+}
+
+/**
+ * Validate an array of patients
+ * @param {Array} patients - The array of patients to validate
+ * @returns {Object} - Validation result with possible errors
+ */
+function validatePatients(patients) {
+  const errors = [];
+  
+  if (!Array.isArray(patients)) {
+    errors.push('patients must be an array');
+    return { isValid: false, errors };
+  }
+
+  if (patients.length === 0) {
+    errors.push('the patients array cannot be empty');
+    return { isValid: false, errors };
+  }
+
+  const uuids = new Set();
+  
+  for (let i = 0; i < patients.length; i++) {
+    const patient = patients[i];
+    const validation = validatePatient(patient);
+    
+    if (!validation.isValid) {
+      errors.push(`Patient ${i + 1}: ${validation.errors.join(', ')}`);
+    } else {
+      // Check UUID uniqueness
+      if (uuids.has(patient.uuid)) {
+        errors.push(`Patient ${i + 1}: UUID ${patient.uuid} is already used in this array`);
+      } else {
+        uuids.add(patient.uuid);
+      }
+    }
+  }
+
+  return {
+    isValid: errors.length === 0,
+    errors: errors
+  };
 }
 
 /**
  * Validate the complete hospital parameters
  * @param {Object} params - The parameters to validate
  * @param {string} params.hospitalUUID - UUID of the hospital
- * @param {string} params.hospitalName - Name of the hospital
+ * @param {Array} params.patients - Array of patients (optional)
  * @returns {Object} - Validation result with possible errors
  */
 function validateHospitalParams(params) {
@@ -51,11 +157,13 @@ function validateHospitalParams(params) {
   } else if (!isValidUUID(params.hospitalUUID)) {
     errors.push('hospitalUUID must be a valid UUID (format: xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx)');
   }
-  
-  if (!params.hospitalName) {
-    errors.push('hospitalName is required');
-  } else if (!isValidHospitalName(params.hospitalName)) {
-    errors.push('hospitalName must contain between 2 and 100 characters and cannot be empty');
+
+  // Validate patients if provided
+  if (params.patients !== undefined) {
+    const patientsValidation = validatePatients(params.patients);
+    if (!patientsValidation.isValid) {
+      errors.push(...patientsValidation.errors);
+    }
   }
   
   return {
@@ -147,7 +255,9 @@ function hashString(data) {
 
 module.exports = {
   isValidUUID,
-  isValidHospitalName,
+  isValidHexUUID,
+  validatePatient,
+  validatePatients,
   validateHospitalParams,
   itemToHashString,
   hashString

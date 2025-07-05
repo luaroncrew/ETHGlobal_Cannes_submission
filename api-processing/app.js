@@ -2,7 +2,6 @@ const express = require("express");
 const dotenv = require("dotenv");
 const cors = require("cors");
 const computeController = require("./controllers/compute_models");
-const computeAggregateController = require("./controllers/compute_aggregate");
 const predictResultController = require("./controllers/predict_result");
 
 dotenv.config();
@@ -32,9 +31,6 @@ app.use((req, res, next) => {
 });
 
 app.post("/compute", (req, res) => computeController.handleRequest(req, res));
-app.post("/compute-aggregate", (req, res) =>
-  computeAggregateController.handleRequest(req, res)
-);
 app.post("/predict-result", (req, res) =>
   predictResultController.handleRequest(req, res)
 );

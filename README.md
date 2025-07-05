@@ -100,8 +100,7 @@ A decentralized machine learning platform for healthcare that allows hospitals t
 - **Body**:
   ```json
   {
-    "hospitalUUID": "string",
-    "hospitalName": "string"
+    "hospitalUUID": "string"
   }
   ```
 - **Description**: Computes a model for the specified hospital

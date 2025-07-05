@@ -16,8 +16,7 @@ class StorageService {
       const data = await fs.readFile(filePath, 'utf8');
       return JSON.parse(data);
     } catch (error) {
-      console.error(`Error when reading the file ${fileName}:`, error);
-      throw new Error('It is not possible to retrieve data');
+      console.error(`Error when reading the file:`, error);
     }
   }
 

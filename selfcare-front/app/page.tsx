@@ -15,7 +15,7 @@ import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { RefreshCw, Upload, Loader2, CheckCircle } from "lucide-react";
+import { Upload, Loader2 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import axios from "axios";
 import { ThemeToggle } from "@/components/theme-toggle";
@@ -25,13 +25,12 @@ export default function MLTrainingApp() {
   const [jsonData, setJsonData] = useState("");
   const [isValidJson, setIsValidJson] = useState(false);
   const [isPublishing, setIsPublishing] = useState(false);
-  const [isRecomputing, setIsRecomputing] = useState(false);
   const [isDragOver, setIsDragOver] = useState(false);
+  const [isRecomputing, setIsRecomputing] = useState(false);
   const [modelRecomputeSuccess, setModelRecomputeSuccess] = useState(false);
 
   // Hospital information for training
   const [hospitalUUID, setHospitalUUID] = useState("");
-  const [hospitalName, setHospitalName] = useState("");
 
   // Prediction form state - updated to match API parameters
   const [heartRate, setHeartRate] = useState("");
@@ -102,10 +101,10 @@ export default function MLTrainingApp() {
 
   // Publish training data - updated to use real API
   const handlePublish = async () => {
-    if (!hospitalUUID || !hospitalName) {
+    if (!hospitalUUID) {
       toast({
-        title: "Missing Information",
-        description: "Please provide hospital UUID and name",
+        title: "Information manquante",
+        description: "Veuillez fournir l'UUID de l'hôpital",
         variant: "destructive",
       });
       return;
@@ -113,19 +112,22 @@ export default function MLTrainingApp() {
 
     setIsPublishing(true);
     try {
+      // Artificial delay of 3 seconds
+      await new Promise(resolve => setTimeout(resolve, 3000));
+      
       const response = await axios.post(
         getApiUrl(API_CONFIG.ENDPOINTS.COMPUTE),
         {
           hospitalUUID: hospitalUUID,
-          hospitalName: hospitalName,
+          patients: JSON.parse(jsonData)
           // If you want to include training data, you can add it here
           // trainingData: JSON.parse(jsonData)
         }
       );
 
       toast({
-        title: "Success",
-        description: "Model computation completed successfully",
+        title: "Succès",
+        description: "Le calcul du modèle a été terminé avec succès",
       });
 
       console.log("Computation result:", response.data);
@@ -133,42 +135,12 @@ export default function MLTrainingApp() {
       setIsValidJson(false);
     } catch (error: any) {
       toast({
-        title: "Error",
-        description: error.response?.data?.message || "Failed to compute model",
+        title: "Erreur",
+        description: error.response?.data?.message || "Échec du calcul du modèle",
         variant: "destructive",
       });
     } finally {
       setIsPublishing(false);
-    }
-  };
-
-  // Recompute model - updated to use real API
-  const handleRecompute = async () => {
-    setIsRecomputing(true);
-    setModelRecomputeSuccess(false);
-    try {
-      const response = await axios.post(
-        getApiUrl(API_CONFIG.ENDPOINTS.COMPUTE_AGGREGATE)
-      );
-
-      toast({
-        title: "Success",
-        description: "Model aggregation completed successfully",
-      });
-
-      console.log("Aggregation result:", response.data);
-      setModelRecomputeSuccess(true);
-      // Hide success state after 5 seconds
-      setTimeout(() => setModelRecomputeSuccess(false), 5000);
-    } catch (error: any) {
-      toast({
-        title: "Error",
-        description:
-          error.response?.data?.message || "Failed to aggregate model",
-        variant: "destructive",
-      });
-    } finally {
-      setIsRecomputing(false);
     }
   };
 
@@ -242,7 +214,7 @@ export default function MLTrainingApp() {
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 gap-4">
                   <div className="space-y-2">
                     <Label htmlFor="hospitalUUID">Hospital UUID</Label>
                     <Input
@@ -251,18 +223,6 @@ export default function MLTrainingApp() {
                       value={hospitalUUID}
                       onChange={(e) => setHospitalUUID(e.target.value)}
                       placeholder="Enter hospital UUID"
-                      className="border-border/50 dark:border-border/20"
-                      required
-                    />
-                  </div>
-                  <div className="space-y-2">
-                    <Label htmlFor="hospitalName">Hospital Name</Label>
-                    <Input
-                      id="hospitalName"
-                      type="text"
-                      value={hospitalName}
-                      onChange={(e) => setHospitalName(e.target.value)}
-                      placeholder="Enter hospital name"
                       className="border-border/50 dark:border-border/20"
                       required
                     />
@@ -323,59 +283,21 @@ export default function MLTrainingApp() {
 
                   <Button
                     onClick={handlePublish}
-                    disabled={!hospitalUUID || !hospitalName || isPublishing}
+                    disabled={!hospitalUUID || isPublishing || isRecomputing}
                     className="min-w-[100px]"
                   >
-                    {isPublishing ? (
+                    {isPublishing && !isRecomputing ? (
                       <>
                         <Loader2 className="mr-2 h-4 w-4 animate-spin" />
                         Computing...
                       </>
-                    ) : (
-                      "Compute Model"
-                    )}
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Model Recomputation Card */}
-            <Card className="border-border/50 dark:border-border/20">
-              <CardHeader>
-                <CardTitle>Model Aggregation</CardTitle>
-                <CardDescription>
-                  Aggregate models from all hospitals for better predictions
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-3">
-                    {modelRecomputeSuccess && (
-                      <div className="flex items-center gap-2 text-green-600 dark:text-green-400">
-                        <CheckCircle className="h-4 w-4" />
-                        <span className="text-sm font-medium">
-                          Model aggregated successfully
-                        </span>
-                      </div>
-                    )}
-                  </div>
-
-                  <Button
-                    onClick={handleRecompute}
-                    disabled={isRecomputing}
-                    variant="outline"
-                    className="min-w-[150px] border-border/50 dark:border-border/20 bg-transparent"
-                  >
-                    {isRecomputing ? (
+                    ) : isRecomputing ? (
                       <>
                         <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                        Aggregating...
+                        Recomputing...
                       </>
                     ) : (
-                      <>
-                        <RefreshCw className="mr-2 h-4 w-4" />
-                        Aggregate Models
-                      </>
+                      "Compute Model"
                     )}
                   </Button>
                 </div>
