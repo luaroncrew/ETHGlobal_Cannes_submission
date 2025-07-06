@@ -1,0 +1,23 @@
+services:
+  api-processing:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: docker.io/jus1cto/api-processing
+    ports:
+      - "3001:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    volumes:
+      - /storage/api-data:/app/data
+    restart: unless-stopped
+    networks:
+      - api-network
+
+networks:
+  api-network:
+    driver: bridge
+volumes:
+  api-data:
+    driver: local
